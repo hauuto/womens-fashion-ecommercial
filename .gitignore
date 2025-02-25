@@ -1,0 +1,14 @@
+
+# Ignore hệ điều hành file
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore IDE files (VS Code, JetBrains, Sublime)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
