@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arligent Homepage</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/javascript.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .cart-container {
+      max-width: 720px;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .cart-item {
+      display: flex;
+      align-items: center;
+      padding: 15px 0;
+      border-bottom: 1px solid #ddd;
+      gap: 15px;
+      position: relative;
+    }
+
+    .cart-item img {
+      width: 60px;
+      border-radius: 6px;
+    }
+
+    .item-details {
+      flex-grow: 1;
+    }
+
+    .item-details h3 {
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .item-details p {
+      margin: 3px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .code {
+      color: #888;
+      font-size: 13px;
+    }
+
+    .quantity-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .quantity-controls button {
+      background: none;
+      border: 1px solid #aaa;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .quantity-controls span {
+      font-size: 14px;
+      width: 20px;
+      text-align: center;
+    }
+
+    .product-price {
+      width: 100px;
+      text-align: right;
+      font-weight: bold;
+    }
+
+    .remove-btn {
+      background: none;
+      border: none;
+      font-size: 20px;
+      color: #999;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+
+    .remove-btn:hover {
+      color: #000;
+    }
+
+    .cart-total {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px 0;
+      font-size: 16px;
+      border-top: 1px solid #ddd;
+    }
+
+    .cart-total span {
+      margin-right: 10px;
+    }
+
+    .checkout-btn {
+      width: 100%;
+      background: #937da3;
+      color: white;
+      padding: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+
+    .checkout-btn:hover {
+      background: #7a6590;
+    }
+  </style>
+</head>
+<body>
+<div class="cart-container">
+  <h2>Your order</h2>
+  <div class="cart-item">
+    <img src="coat.jpg" alt="Velvet Denim Coat" />
+    <div class="item-details">
+      <h3>Пальто из денима с бархатным покрытием</h3>
+      <p>Размер: S</p>
+      <p class="code">12502001078/27</p>
+    </div>
+    <div class="quantity-controls">
+      <button>-</button>
+      <span>2</span>
+      <button>+</button>
+    </div>
+    <div class="product-price">139 980 р.</div>
+    <button class="remove-btn">×</button>
+  </div>
+
+  <div class="cart-item">
+    <img src="shirt.jpg" alt="Black Cotton Shirt" />
+    <div class="item-details">
+      <h3>Футболка из хлопка черная</h3>
+      <p>Размер: XS</p>
+      <p class="code">1250103129/02</p>
+    </div>
+    <div class="quantity-controls">
+      <button>-</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <div class="product-price">5 990 р.</div>
+    <button class="remove-btn">×</button>
+  </div>
+
+  <div class="cart-total">
+    <span>Total:</span>
+    <strong>145 970 р.</strong>
+  </div>
+
+  <button class="checkout-btn">ОФОРМИТЬ ЗАКАЗ</button>
+</div>
+</body>
+</html>
