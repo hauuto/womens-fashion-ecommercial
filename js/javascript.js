@@ -14,6 +14,23 @@ window.addEventListener("scroll", function () {
 });
 
 
+const input = document.getElementById('searchInput');
+const clearBtn = document.getElementById('clearBtn');
+const searchCloseBtn = document.getElementById('searchCloseBtn');
+
+input.addEventListener('input', () => {
+    clearBtn.style.display = input.value ? 'inline' : 'none';
+});
+
+clearBtn.addEventListener('click', () => {
+    input.value = '';
+    clearBtn.style.display = 'none';
+    input.focus();
+});
+
+searchCloseBtn.addEventListener('click', () => {
+    input.value = '';
+});
 
 
 
