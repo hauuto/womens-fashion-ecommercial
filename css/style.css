@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'HeadingNow';
+    src: url(../assets/fonts/HeadingNowTrial-44Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'HeadingNow-Bold';
+    src: url(../assets/fonts/HeadingNowTrial-46Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'HeadingNow-ExtraBold';
+    src: url(../assets/fonts/HeadingNowTrial-47Extrabold.ttf) format('truetype');
+}
+
+*{
+
+}
+
+header {
+    font-family: 'HeadingNow', sans-serif;
+    font-size: 25px;
+
+    .brand{
+        font-family: 'HeadingNow-Bold', sans-serif;
+        font-size: 50px;
+    }
+    i{
+        font-size: 25px;
+    }
+
+}
+
+
+
+
+
+
