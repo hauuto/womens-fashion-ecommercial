@@ -11,59 +11,192 @@
 		<script src="../js/javascript.js"></script>
 	</head>
 	<body>
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-				<div class="container-fluid">
-					<div class="collapse navbar-collapse col-lg-6" id="navbarTogglerDemo02">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-							<li class="nav-item">
-								<a class="nav-link" href="#">SHOP</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">INFORMATION</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">ABOUT US</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">COLLECTIONS</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-lg-2">
-						<a class="navbar-brand me-lg-5 brand" href="#">ARLIGENT</a>
-					</div>
-					<div class="col-lg-4 d-lg-flex justify-content-end">
-						<a class="btn">
-							<i class="fa-solid fa-magnifying-glass"></i>
-						</a>
-						<a class="btn">
-							<i class="fa-solid fa-heart"></i>
-						</a>
-						<a class="btn">
-							<i class="fa-solid fa-cart-shopping"></i>
-						</a>
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-					</div>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse col-lg-6" id="navbarTogglerDemo02">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" href="#">SHOP</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">INFORMATION</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">ABOUT US</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">COLLECTIONS</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2">
+					<a class="navbar-brand me-lg-5 brand" href="#">ARLIGENT</a>
+				</div>
+				<div class="col-lg-4 d-lg-flex justify-content-end">
+					<!--search button========================================-->
+					<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasSearch">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</a>
+					<div class="offcanvas offcanvas-top" id="offcanvasSearch" data-bs-backdrop="false">
+						<div class="offcanvas-body">
+							<div class="search-container">
+								<div class="search-field">
+									<i class="fa fa-magnifying-glass fa-flip-horizontal"></i>
+									<input id="searchInput" type="search" placeholder="Bạn muốn mua gì?">
+									<span id="clearBtn" class="clear-btn">
+                  						<i class='fa-solid fa-times-circle'></i>
+                					</span>
+								</div>
+								<button id="searchCloseBtn" type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas"></button>
+							</div>
 
+						</div>
+					</div>
+					<!--favorite button========================================-->
+					<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasWishlist">
+						<div class="button-group">
+							<i class="far fa-heart">
+								<span class="counter">2</span>
+							</i>
+						</div>
+					</a>
+					<div class="offcanvas offcanvas-end" data-bs-scroll="false" id="offcanvasWishlist">
+						<div class="offcanvas-header">
+							<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+						</div>
+						<div class="offcanvas-body">
+							<h2>Favorites</h2>
+							<div class="product">
+								<div class="product-start">
+									<img src="../assets/images/product1.png"/>
+									<div class="product-desc">
+										<a href="#">Футболка из хлопка черная</a>
+										<p>Размер: XS</p>
+										<p class="product-code">1250103129/02</p>
+									</div>
+								</div>
+								<div class="product-end">
+									<div class="product-price">5 990 р.</div>
+									<i class="far fa-times-circle"></i>
+								</div>
 
-
+							</div>
+							<div class="product">
+								<div class="product-start">
+									<img src="../assets/images/product2.jpg"/>
+									<div class="product-desc">
+										<a href="#">Пальто из денима с бархатным покрытием</a>
+										<p>Размер: S</p>
+										<p class="product-code">12502001078/27</p>
+									</div>
+								</div>
+								<div class="product-end">
+									<div class="product-price">69 990 р.</div>
+									<i class="far fa-times-circle"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--cart button========================================-->
+					<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasCart">
+						<div class="button-group">
+							<i class="fa fa-cart-shopping">
+								<span class="counter">2</span>
+							</i>
+						</div>
+					</a>
+					<div class="offcanvas offcanvas-end" data-bs-scroll="false" id="offcanvasCart">
+						<div class="offcanvas-header">
+							<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+						</div>
+						<div class="offcanvas-body">
+							<h2>Your order</h2>
+							<div class="product">
+								<div class="product-start">
+									<img src="../assets/images/product1.png"/>
+									<div class="product-desc">
+										<a href="#">Футболка из хлопка черная</a>
+										<p>Размер: XS</p>
+										<p class="product-code">1250103129/02</p>
+									</div>
+								</div>
+								<div class="product-end">
+									<div class="quantity-controls text-end">
+										<i class="fa fa-minus-circle"></i>
+										<span>2</span>
+										<i class="fa fa-plus-circle"></i>
+									</div>
+									<div class="product-price">5 990 р.</div>
+									<i class="far fa-times-circle"></i>
+								</div>
+							</div>
+							<div class="product">
+								<div class="product-start">
+									<img src="../assets/images/product2.jpg"/>
+									<div class="product-desc">
+										<a href="#">Пальто из денима с бархатным покрытием</a>
+										<p>Размер: S</p>
+										<p class="product-code">12502001078/27</p>
+									</div>
+								</div>
+								<div class="product-end">
+									<div class="quantity-controls">
+										<i class="fa fa-minus-circle"></i>
+										<span>2</span>
+										<i class="fa fa-plus-circle"></i>
+									</div>
+									<div class="product-price">69 990 р.</div>
+									<i class="far fa-times-circle"></i>
+								</div>
+							</div>
+							<div class="cart-total">
+								<span>Total:</span>
+								<span>145 970 р.</span>
+							</div>
+							<button class="checkout-btn">ОФОРМИТЬ ЗАКАЗ</button>
+						</div>
+					</div>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 				</div>
 
-			</nav>
+
+
+			</div>
+
+		</nav>
 
 
 
-		</header>
+	</header>
 
 
 
 
 
+<!--search button========================================-->
+<script>
+	const input = document.getElementById('searchInput');
+	const clearBtn = document.getElementById('clearBtn');
+	const searchCloseBtn = document.getElementById('searchCloseBtn');
 
+	input.addEventListener('input', () => {
+		clearBtn.style.display = input.value ? 'inline' : 'none';
+	});
 
+	clearBtn.addEventListener('click', () => {
+		input.value = '';
+		clearBtn.style.display = 'none';
+		input.focus();
+	});
+
+	searchCloseBtn.addEventListener('click', () => {
+		input.value = '';
+	});
+
+</script>
 
 	</body>
 </html>
