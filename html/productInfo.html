@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arligent Product Details</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/productInfoStyle.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
+</head>
+<body>
+<main class="product-info-container">
+    <!--images===========================================================-->
+    <div class="product-images">
+        <div class="main-img-wrapper">
+            <div style="background: #f3f3f3"><img id="mainImage" src="../assets/images/product11.png" class="main-img"/></div>
+            <button id="prevArrow" class="arrow left"><i class="fa-solid fa-chevron-left"></i></i></button>
+            <button id="nextArrow" class="arrow right"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="thumbs">
+            <img src="../assets/images/product11.png"/>
+            <img src="../assets/images/product12.png"/>
+            <img src="../assets/images/product13.png"/>
+            <img src="../assets/images/product14.png"/>
+            <img src="../assets/images/product15.png"/>
+            <img src="../assets/images/product16.png"/>
+        </div>
+    </div>
+
+    <!--details===========================================================-->
+    <div class="product-details">
+        <div class="product-title">Футболка из хлопка черная</div>
+        <div class="sku">SKU: 12501013129/02</div>
+        <div class="price">5 990 р.</div>
+
+        <div class="size-selector">
+            <span>Размер</span>
+            <div class="sizes">
+                <button>XS</button>
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+            </div>
+        </div>
+
+        <ul class="product-description">
+            <li>Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.</li>
+            <br>
+            <li>- Регулярный фит</li>
+            <li>- Короткий рукав</li>
+            <br>
+            <li>Размер S соответствует мужскому S.</li>
+            <br>
+            <li>Рекомендована бережная стирка при температуре не выше 30°C.</li>
+            <br>
+            <li>Цвет: чёрный</li>
+            <li>Состав: 100% хлопок</li>
+            <li>Страна-производитель: Турция</li>
+        </ul>
+
+        <div class="buttons">
+            <button class="btn primary cart">В КОРЗИНУ</button>
+            <button class="btn primary wishlist"><i class="fa-regular fa-heart"></i></button>
+        </div>
+    </div>
+
+    <!-- footer==========================================================-->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-logo">
+                <img src="../assets/images/logo.png">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Оплата и доставка</a>
+                <a href="#">Возврат и обмен</a>
+                <a href="#">Контакты</a>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Договор-оферта</a>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">О нас</a>
+                <a href="#">Найти нас</a>
+            </div>
+        </div>
+    </footer>
+</main>
+
+<!--gallery event======================================================-->
+<script>
+    const mainImage = document.getElementById('mainImage');
+    const thumbnails = document.querySelectorAll('.thumbs img');
+    const prevArrow = document.getElementById('prevArrow');
+    const nextArrow = document.getElementById('nextArrow');
+
+    function setActive(index) {
+        mainImage.classList.add('fade-out');
+
+        // Wait for fade-out before changing src
+        setTimeout(() => {
+            mainImage.src = thumbnails[index].src;
+
+            // Remove fade class after image has changed
+            mainImage.onload = () => {
+                mainImage.classList.remove('fade-out');
+            };
+
+            thumbnails.forEach(img => img.classList.remove('selected'));
+            thumbnails[index].classList.add('selected');
+            currentIndex = index;
+        }, 200); // Half the transition time (optional)
+    }
+
+
+    thumbnails.forEach((thumb, index) => {
+        thumb.addEventListener('click', () => {
+            setActive(index);
+        });
+    });
+
+    prevArrow.addEventListener('click', () => {
+        let newIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
+        setActive(newIndex);
+    });
+
+    nextArrow.addEventListener('click', () => {
+        let newIndex = (currentIndex + 1) % thumbnails.length;
+        setActive(newIndex);
+    });
+
+    setActive(0); // Initial highlight
+</script>
+</body>
+</html>

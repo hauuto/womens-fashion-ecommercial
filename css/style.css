@@ -17,9 +17,6 @@
     src: url(../assets/fonts/Oswald-VariableFont_wght.ttf) format('truetype');
 }
 
-*{
-
-}
 /* header */
 header {
     font-family: 'HeadingNow', sans-serif;
@@ -30,26 +27,20 @@ header {
         color: #ba4730 !important;
     }
 
-
     i{
         font-size: 30px;
     }
-
 }
+
 h1 {
     font-family: 'HeadingNow-Bold', sans-serif;
     font-size: 60px;
     color: #ba4730 !important;
 }
 
-
-
 #navBar {
     transition: top 0.3s;
 }
-
-
-
 
 /*offcanvas fade effect*/
 .offcanvas-top {
@@ -281,6 +272,7 @@ h1 {
 
 .quantity-controls i {
     font-size: 16px;
+    cursor: pointer;
 }
 
 .quantity-controls span {
