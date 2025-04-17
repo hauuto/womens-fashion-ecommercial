@@ -20,24 +20,37 @@
 *{
 
 }
-
+/* header */
 header {
     font-family: 'HeadingNow', sans-serif;
-    font-size: 25px;
-
+    font-size: 30px;
     .brand{
         font-family: 'HeadingNow-Bold', sans-serif;
-        font-size: 50px;
+        font-size: 60px;
+        color: #ba4730 !important;
     }
+
+
     i{
-        font-size: 25px;
+        font-size: 30px;
     }
 
 }
+h1 {
+    font-family: 'HeadingNow-Bold', sans-serif;
+    font-size: 60px;
+    color: #ba4730 !important;
+}
+
+
 
 #navBar {
     transition: top 0.3s;
 }
+
+
+
+
 /*offcanvas fade effect*/
 .offcanvas-top {
     opacity: 0 !important;
@@ -294,4 +307,27 @@ header {
     border: none;
     cursor: pointer;
     margin-top: 30px;
+}
+
+/*custom page-link style */
+.page-link {
+    color: gray;
+    background-color: #ffffff;
+    border: 1px solid #ffffff; /* Change border color */
+    border-radius: 5px;
+    padding: 0.5rem 1rem; /* Adjust padding */
+    transition: all 0.3s ease; /* Add a smooth transition */
+}
+
+.page-link:hover {
+    color: black; /* Change text color on hover */
+    background-color: white; /* Change background color on hover */
+    border-color: black; /* Change border color on hover */
+}
+
+.page-item.active .page-link {
+    color: white; /* Text color for active link */
+    background-color: black; /* Background color for active link */
+    border-color: white; /* Border color for active link */
+    font-weight: bold; /* Optional: Make the text bold */
 }

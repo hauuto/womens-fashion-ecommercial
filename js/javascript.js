@@ -108,7 +108,7 @@ function renderProductSection(containerId, paginationId, filterFn = (products) =
         // Nút Previous
         const prevLi = document.createElement('li');
         prevLi.className = `page-item ${currentPage === 1 ? 'disabled' : ''}`;
-        prevLi.innerHTML = `<button class="page-link">Previous</button>`;
+        prevLi.innerHTML = `<button class="page-link" ">Previous</button>`;
         prevLi.addEventListener('click', () => {
             if (currentPage > 1) {
                 currentPage--;
