@@ -28,6 +28,8 @@ header {
         font-family: 'HeadingNow-Bold', sans-serif;
         font-size: 70px;
         color: #ba4730 !important;
+        letter-spacing: -3px;
+
 
     }
 
@@ -48,8 +50,38 @@ footer{
         font-family: 'HeadingNow-Bold', sans-serif;
         font-size: 50px;
         color: #ba4730 !important;
+        letter-spacing: -2px;
+        span{
+            letter-spacing: -5px;
+        }
     }
+
+    .social-media{
+        a{
+            font-size: 20px;
+            color: gray !important;
+        }
+        a:hover{
+            color: #ba4730 !important;
+        }
+    }
+
+    .quick-links{
+        a{
+            font-size: 16px;
+            color: gray !important;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #ba4730 !important;
+        }
+    }
+
+
+
 }
+
+
 
 
 

@@ -108,7 +108,7 @@ function renderProductSection(containerId, paginationId, filterFn = (products) =
         // Nút Previous
         const prevLi = document.createElement('li');
         prevLi.className = `page-item ${currentPage === 1 ? 'disabled' : ''}`;
-        prevLi.innerHTML = `<button class="page-link" ">Previous</button>`;
+        prevLi.innerHTML = `<button class="page-link" "><i class="fa-solid fa-arrow-left"></i></button>`;
         prevLi.addEventListener('click', () => {
             if (currentPage > 1) {
                 currentPage--;
@@ -184,7 +184,7 @@ function renderProductSection(containerId, paginationId, filterFn = (products) =
         // Nút Next
         const nextLi = document.createElement('li');
         nextLi.className = `page-item ${currentPage === pageCount ? 'disabled' : ''}`;
-        nextLi.innerHTML = `<button class="page-link">Next</button>`;
+        nextLi.innerHTML = `<button class="page-link"><i class="fa-solid fa-arrow-right"></i></button>`;
         nextLi.addEventListener('click', () => {
             if (currentPage < pageCount) {
                 currentPage++;
