@@ -104,8 +104,6 @@ footer{
 
 
 
-
-
 #navBar {
     transition: top 0.3s;
 }
@@ -348,6 +346,7 @@ footer{
 
 .quantity-controls i {
     font-size: 16px;
+    cursor: pointer;
 }
 
 .quantity-controls span {
