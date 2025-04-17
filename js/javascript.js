@@ -6,7 +6,7 @@ window.addEventListener("scroll", function () {
     var st = window.scrollY || document.documentElement.scrollTop;
 
     if (st > lastScrollTop) {
-        navbar.style.top = "-80px"; // Smoothly hide navbar on scroll down
+        navbar.style.top = "-100px"; // Smoothly hide navbar on scroll down
     } else {
         navbar.style.top = "0"; // Smoothly show navbar on scroll up
     }
@@ -36,7 +36,7 @@ searchCloseBtn.addEventListener('click', () => {
 
 
 
-function renderProductSection(containerId, paginationId, filterFn = (products) => products, jsonPath = './products.json') {
+function renderProductSection(containerId, paginationId, filterFn = (products) => products, jsonPath = '../js/products.json') {
     let itemsPerPage = 4; // Mặc định cho màn hình lớn
     let currentPage = 1;
     let products = [];
