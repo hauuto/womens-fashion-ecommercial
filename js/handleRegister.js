@@ -33,6 +33,7 @@ function handleRegister() {
 
             // Save to local storage
             const userInfo = { username, email, password };
+            localStorage.setItem("userInfo", JSON.stringify(userInfo));
             window.location.href = "login.html";
         });
     }

@@ -16,7 +16,7 @@
 
 			</header>
 
-			<div class="my-5 row">
+			<section id="register" class="my-5 row">
 				<h1 class="text-center mb-4">Register</h1>
 				<form id="registerForm" class="container col-2 col-8 col-2">
 					<div class="mb-3">
@@ -35,10 +35,10 @@
 						<label for="confirmPassword" class="form-label">Confirm Password</label>
 						<input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
 					</div>
-					<button type="submit" class="btn btn-primary w-100">Register</button>
+					<button type="submit" class="btn btn-primary w-100" onclick="handleRegister()">Register</button>
 					<p class="text-center mt-3">Already have an account? <a href="login.html">Log in</a></p>
 				</form>
-			</div>
+			</section>
 
 
 
@@ -54,5 +54,6 @@
 
 		<script src="../js/bootstrap.bundle.min.js"></script>
 		<script src="../js/main.js"></script>
+		<script src="../js/handleRegister.js"></script>
 	</body>
 </html>

@@ -9,33 +9,45 @@
 		<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
 	</head>
 	<body>
-		<!-- Header -->
-		<header class="container-fluid">
-			<div class="row" id="header"></div>
-		</header>
 
-		<main class="container my-5">
-			<h1 class="text-center mb-4">Log In</h1>
-			<form id="loginForm">
-				<div class="mb-3">
-					<label for="email" class="form-label">Email</label>
-					<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-				</div>
-				<div class="mb-3">
-					<label for="password" class="form-label">Password</label>
-					<input type="password" class="form-control" id="password" placeholder="Enter your password" required>
-				</div>
-				<button type="submit" class="btn btn-primary w-100">Log In</button>
-				<p class="text-center mt-3">Don't have an account? <a href="register.html">Register</a></p>
-			</form>
-		</main>
 
-		<!-- Footer -->
-		<footer class="bg-light py-4">
 
-		</footer>
+
+		<div class="container-fluid">
+			<header class="row">
+
+
+			</header>
+
+			<section id="register" class="my-5 row">
+				<h1 class="text-center mb-4">Log In</h1>
+				<form id="loginForm" class="container col-2 col-8 col-2">
+					<div class="mb-3">
+						<label for="email" class="form-label">Email</label>
+						<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+					</div>
+					<div class="mb-3">
+						<label for="password" class="form-label">Password</label>
+						<input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+					</div>
+					<button type="submit" class="btn btn-primary w-100" onclick="handleLogin()">Log In</button>
+					<p class="text-center mt-3">Don't have an account? <a href="register.html">Register</a></p>
+				</form>
+			</section>
+
+
+
+
+			<!-- Footer -->
+			<footer class="bg-light py-4">
+				<div class="row" id="footer"></div>
+			</footer>
+
+
+		</div>
 
 		<script src="../js/bootstrap.bundle.min.js"></script>
 		<script src="../js/main.js"></script>
+		<script src="../js/handleLogin.js"></script>
 	</body>
 </html>

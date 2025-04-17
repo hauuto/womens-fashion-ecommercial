@@ -20,7 +20,7 @@ function handleLogin() {
 
             if (userInfo.email === email && userInfo.password === password) {
                 alert("Login successful!");
-                window.location.href = "dashboard.html";
+                window.location.href = "homepage.html";
             } else {
                 alert("Invalid email or password.");
             }
