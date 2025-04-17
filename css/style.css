@@ -66,41 +66,7 @@ h1 {
     color: #ba4730 !important;
 }
 
-footer{
-    .brand{
-        font-family: 'HeadingNow-Bold', sans-serif;
-        font-size: 50px;
-        color: #ba4730 !important;
-        letter-spacing: -2px;
-        span{
-            letter-spacing: -5px;
-        }
-    }
 
-    .social-media{
-        a{
-            font-size: 20px;
-            color: gray !important;
-        }
-        a:hover{
-            color: #ba4730 !important;
-        }
-    }
-
-    .quick-links{
-        a{
-            font-size: 16px;
-            color: gray !important;
-            text-decoration: none;
-        }
-        a:hover{
-            color: #ba4730 !important;
-        }
-    }
-
-
-
-}
 
 
 
@@ -409,3 +375,213 @@ a:hover img.img-fluid {
     border-color: white; /* Border color for active link */
     font-weight: bold; /* Optional: Make the text bold */
 }
+
+
+/*product info======================================================*/
+.product-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.product-images {
+    flex: 1 1 20%;
+    text-align: center;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.main-img img {
+    background: #f3f3f3;
+}
+
+.thumbs {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.thumbs img {
+    width: auto;
+    height: 80px;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.3s;
+}
+
+.thumbs img:hover {
+    opacity: 0.6;
+}
+
+.product-details {
+    flex: 1 1 45%;
+}
+
+.product-details .product-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.sku {
+    color: #777777;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.size-selector span {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sizes button {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 2px;
+    width: 30px;
+    height: 34px;
+    background: transparent;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.sizes button:hover {
+    border: 1px solid black;
+}
+
+.product-description {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn.primary {
+    font-size: 14px;
+    background-color: #8d6e97;
+    color: white;
+}
+
+.btn.primary.cart {
+    padding: 12px 32px;
+}
+
+.btn.primary.wishlist {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    background-color: #8d6e97;
+    color: white;
+}
+
+.btn.primary.wishlist:hover i::before {
+    content: "\f004";
+    font-weight: 900;
+}
+
+.btn.primary.wishlist:hover i {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+/*footer*/
+footer{
+    .brand{
+        font-family: 'HeadingNow-Bold', sans-serif;
+        font-size: 50px;
+        color: #ba4730 !important;
+        letter-spacing: -2px;
+        span{
+            letter-spacing: -5px;
+        }
+    }
+
+    .social-media{
+        a{
+            font-size: 20px;
+            color: gray !important;
+        }
+        a:hover{
+            color: #ba4730 !important;
+        }
+    }
+
+    .quick-links{
+        a{
+            font-size: 16px;
+            color: gray !important;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #ba4730 !important;
+        }
+    }
+
+
+
+}
+
+
+
+/*gallery event========================================================*/
+.main-img-wrapper {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+.thumbs img.selected {
+    border: 2px solid darkgrey;
+}
+
+.main-img {
+    transition: opacity 0.4s ease;
+    opacity: 1;
+}
+.main-img.fade-out {
+    opacity: 0;
+}
+
+
