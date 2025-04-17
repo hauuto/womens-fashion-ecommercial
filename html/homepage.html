@@ -1,215 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Arligent Homepage</title>
-		<link rel="stylesheet" href="../css/bootstrap.min.css">
-		<link rel="stylesheet" href="../css/style.css">
-		<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
-
-	</head>
-	<body>
-		<div class="container-fluid">
-			<header class="row">
-				<nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-					<div class="container-fluid">
-						<div class="collapse navbar-collapse col-lg-6" id="navbarTogglerDemo02">
-							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-								<li class="nav-item">
-									<a class="nav-link" href="#">SHOP</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">INFORMATION</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">ABOUT US</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">COLLECTIONS</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-lg-2">
-							<a class="navbar-brand me-lg-5 brand" href="#">ARLIGENT</a>
-						</div>
-						<div class="col-lg-4 d-lg-flex justify-content-end">
-							<!--search button========================================-->
-							<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasSearch">
-								<i class="fa-solid fa-magnifying-glass"></i>
-							</a>
-							<div class="offcanvas offcanvas-top" id="offcanvasSearch" data-bs-backdrop="false">
-								<div class="offcanvas-body">
-									<div class="search-container">
-										<div class="search-field">
-											<i class="fa fa-magnifying-glass fa-flip-horizontal"></i>
-											<label for="searchInput"></label><input id="searchInput" type="search" placeholder="Bạn muốn mua gì?">
-											<span id="clearBtn" class="clear-btn">
-                  						<i class='fa-solid fa-times-circle'></i>
-                					</span>
-										</div>
-										<button id="searchCloseBtn" type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas"></button>
-									</div>
-
-								</div>
-							</div>
-							<!--favorite button========================================-->
-							<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasWishlist">
-								<div class="button-group">
-									<i class="far fa-heart">
-										<span class="counter">2</span>
-									</i>
-								</div>
-							</a>
-							<div class="offcanvas offcanvas-end" data-bs-scroll="false" id="offcanvasWishlist">
-								<div class="offcanvas-header">
-									<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-								</div>
-								<div class="offcanvas-body">
-									<h2>Favorites</h2>
-									<div class="product">
-										<div class="product-start">
-											<img src="../assets/images/product1.png" alt="product1">
-											<div class="product-desc">
-												<a href="#">Футболка из хлопка черная</a>
-												<p>Размер: XS</p>
-												<p class="product-code">1250103129/02</p>
-											</div>
-										</div>
-										<div class="product-end">
-											<div class="product-price">5 990 р.</div>
-											<i class="far fa-times-circle"></i>
-										</div>
-
-									</div>
-									<div class="product">
-										<div class="product-start">
-											<img src="../assets/images/product2.jpg" alt="product2">
-											<div class="product-desc">
-												<a href="#">Пальто из денима с бархатным покрытием</a>
-												<p>Размер: S</p>
-												<p class="product-code">12502001078/27</p>
-											</div>
-										</div>
-										<div class="product-end">
-											<div class="product-price">69 990 р.</div>
-											<i class="far fa-times-circle"></i>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!--cart button========================================-->
-							<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasCart">
-								<div class="button-group">
-									<i class="fa fa-cart-shopping">
-										<span class="counter">2</span>
-									</i>
-								</div>
-							</a>
-							<div class="offcanvas offcanvas-end" data-bs-scroll="false" id="offcanvasCart">
-								<div class="offcanvas-header">
-									<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-								</div>
-								<div class="offcanvas-body">
-									<h2>Your order</h2>
-									<div class="product">
-										<div class="product-start">
-											<img src="../assets/images/product1.png" alt="produce1">
-											<div class="product-desc">
-												<a href="#">Футболка из хлопка черная</a>
-												<p>Размер: XS</p>
-												<p class="product-code">1250103129/02</p>
-											</div>
-										</div>
-										<div class="product-end">
-											<div class="quantity-controls text-end">
-												<i class="fa fa-minus-circle"></i>
-												<span>2</span>
-												<i class="fa fa-plus-circle"></i>
-											</div>
-											<div class="product-price">5 990 р.</div>
-											<i class="far fa-times-circle"></i>
-										</div>
-									</div>
-									<div class="product">
-										<div class="product-start">
-											<img src="../assets/images/product2.jpg" alt="product2">
-											<div class="product-desc">
-												<a href="#">Пальто из денима с бархатным покрытием</a>
-												<p>Размер: S</p>
-												<p class="product-code">12502001078/27</p>
-											</div>
-										</div>
-										<div class="product-end">
-											<div class="quantity-controls">
-												<i class="fa fa-minus-circle"></i>
-												<span>2</span>
-												<i class="fa fa-plus-circle"></i>
-											</div>
-											<div class="product-price">69 990 р.</div>
-											<i class="far fa-times-circle"></i>
-										</div>
-									</div>
-									<div class="cart-total">
-										<span>Total:</span>
-										<span>145 970 р.</span>
-									</div>
-									<button class="checkout-btn">ОФОРМИТЬ ЗАКАЗ</button>
-								</div>
-							</div>
-							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="navbar-toggler-icon"></span>
-							</button>
-						</div>
+<head>
+	<meta charset="UTF-8">
+	<title>Arligent Homepage</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<header class="row">
+			<nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<div class="container-fluid">
+					<div class="collapse navbar-collapse col-lg-6" id="navbarTogglerDemo02">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" href="#">SHOP</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">INFORMATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">ABOUT US</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">COLLECTIONS</a>
+							</li>
+						</ul>
 					</div>
-				</nav>
-			</header>
+					<div class="col-lg-2">
+						<a class="navbar-brand me-lg-5 brand" href="#">ARLIGENT</a>
+					</div>
+					<div class="col-lg-4 d-lg-flex justify-content-end">
+						<!--search button========================================-->
+						<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasSearch">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</a>
+						<div class="offcanvas offcanvas-top" id="offcanvasSearch" data-bs-backdrop="false">
+							<div class="offcanvas-body">
+								<div class="search-container">
+									<div class="search-field">
+										<i class="fa fa-magnifying-glass fa-flip-horizontal"></i>
+										<label for="searchInput"></label><input id="searchInput" type="search" placeholder="Bạn muốn mua gì?">
+										<span id="clearBtn" class="clear-btn">
+									<i class='fa-solid fa-times-circle'></i>
+								</span>
+									</div>
+									<button id="searchCloseBtn" type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas"></button>
+								</div>
 
-			<!--Intro video -->
-			<section id="video" class="row">
-				<div class="col-12 ratio ratio-16x9">
-					<video autoplay muted loop id="homePageVideo">
-						<source src="../assets/videos/homepage_vid.mp4" type="video/mp4">
-					</video>
-				</div>
-			</section>
-			<!--Best Seller -->
-			<section id="bestSellers" class="row">
-
-				<div class="col-2"></div>
-				<div class="col-8">
-					<div class="container my-5">
-						<h1 class="mb-4">Best Sellers</h1>
-						<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="product-list">
-							<!-- Sản phẩm sẽ hiển thị tại đây -->
+							</div>
 						</div>
+						<!--favorite button========================================-->
+						<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasWishlist">
+							<div class="button-group">
+								<i class="far fa-heart">
+									<span class="counter">2</span>
+								</i>
+							</div>
+						</a>
+						<div class="offcanvas offcanvas-end" data-bs-scroll="false" id="offcanvasWishlist">
+							<div class="offcanvas-header">
+								<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+							</div>
+							<div class="offcanvas-body">
+								<h2>Favorites</h2>
+								<div class="product">
+									<div class="product-start">
+										<img src="../assets/images/product11.png" alt="product1">
+										<div class="product-desc">
+											<a href="#">Футболка из хлопка черная</a>
+											<p>Размер: XS</p>
+											<p class="product-code">1250103129/02</p>
+										</div>
+									</div>
+									<div class="product-end">
+										<div class="product-price">5 990 р.</div>
+										<i class="far fa-times-circle"></i>
+									</div>
 
-						<nav class="mt-4">
-							<ul class="pagination d-flex justify-content-center gap-3" id="pagination">
-								<!-- Nút phân trang sẽ xuất hiện ở đây -->
-							</ul>
-						</nav>
+								</div>
+								<div class="product">
+									<div class="product-start">
+										<img src="../assets/images/product2.jpg" alt="product2">
+										<div class="product-desc">
+											<a href="#">Пальто из денима с бархатным покрытием</a>
+											<p>Размер: S</p>
+											<p class="product-code">12502001078/27</p>
+										</div>
+									</div>
+									<div class="product-end">
+										<div class="product-price">69 990 р.</div>
+										<i class="far fa-times-circle"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--cart button========================================-->
+						<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasCart">
+							<div class="button-group">
+								<i class="fa fa-cart-shopping">
+									<span class="counter">2</span>
+								</i>
+							</div>
+						</a>
+						<div class="offcanvas offcanvas-end" data-bs-scroll="false" id="offcanvasCart">
+							<div class="offcanvas-header">
+								<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+							</div>
+							<div class="offcanvas-body">
+								<h2>Your order</h2>
+								<div class="product">
+									<div class="product-start">
+										<img src="../assets/images/product11.png" alt="produce1">
+										<div class="product-desc">
+											<a href="#">Футболка из хлопка черная</a>
+											<p>Размер: XS</p>
+											<p class="product-code">1250103129/02</p>
+										</div>
+									</div>
+									<div class="product-end">
+										<div class="quantity-controls text-end">
+											<i class="fa fa-minus-circle"></i>
+											<span>2</span>
+											<i class="fa fa-plus-circle"></i>
+										</div>
+										<div class="product-price">5 990 р.</div>
+										<i class="far fa-times-circle"></i>
+									</div>
+								</div>
+								<div class="product">
+									<div class="product-start">
+										<img src="../assets/images/product2.jpg" alt="product2">
+										<div class="product-desc">
+											<a href="#">Пальто из денима с бархатным покрытием</a>
+											<p>Размер: S</p>
+											<p class="product-code">12502001078/27</p>
+										</div>
+									</div>
+									<div class="product-end">
+										<div class="quantity-controls">
+											<i class="fa fa-minus-circle"></i>
+											<span>2</span>
+											<i class="fa fa-plus-circle"></i>
+										</div>
+										<div class="product-price">69 990 р.</div>
+										<i class="far fa-times-circle"></i>
+									</div>
+								</div>
+								<div class="cart-total">
+									<span>Total:</span>
+									<span>145 970 р.</span>
+								</div>
+								<button class="checkout-btn">ОФОРМИТЬ ЗАКАЗ</button>
+							</div>
+						</div>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!--Intro video -->
+		<section id="video" class="row">
+			<div class="col-12 ratio ratio-16x9">
+				<video autoplay muted loop id="homePageVideo">
+					<source src="../assets/videos/homepage_vid.mp4" type="video/mp4">
+				</video>
+			</div>
+		</section>
+		<!--Best Seller -->
+		<section id="bestSellers" class="row">
+
+			<div class="col-2"></div>
+			<div class="col-8">
+				<div class="container my-5">
+					<h1 class="mb-4">Best Sellers</h1>
+					<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="product-list">
+						<!-- Sản phẩm sẽ hiển thị tại đây -->
 					</div>
 
-
+					<nav class="mt-4">
+						<ul class="pagination d-flex justify-content-center gap-3" id="pagination">
+							<!-- Nút phân trang sẽ xuất hiện ở đây -->
+						</ul>
+					</nav>
 				</div>
-				<div class="col-2"></div>
-
-			</section>
-
-
-			<footer class="row">
-
-
-			</footer>
-		</div>
-
-
-
-
-
-
-		<script src="../js/bootstrap.bundle.min.js"></script>
-		<script src="../js/jquery-3.7.1.min.js"></script>
-		<script src="../js/javascript.js"></script>
-	</body>
+			</div>
+			<div class="col-2"></div>
+		</section>
+		<footer class="row">
+		</footer>
+	</div>
+	<script src="../js/bootstrap.bundle.min.js"></script>
+	<script src="../js/jquery-3.7.1.min.js"></script>
+	<script src="../js/javascript.js"></script>
+</body>
 </html>
