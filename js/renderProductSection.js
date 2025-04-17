@@ -1,41 +1,3 @@
-//navbar
-var lastScrollTop = 0;
-var navbar = document.getElementById('navBar');
-
-window.addEventListener("scroll", function () {
-    var st = window.scrollY || document.documentElement.scrollTop;
-
-    if (st > lastScrollTop) {
-        navbar.style.top = "-100px"; // Smoothly hide navbar on scroll down
-    } else {
-        navbar.style.top = "0"; // Smoothly show navbar on scroll up
-    }
-    lastScrollTop = st <= 0 ? 0 : st; // Prevent negative values
-});
-
-
-const input = document.getElementById('searchInput');
-const clearBtn = document.getElementById('clearBtn');
-const searchCloseBtn = document.getElementById('searchCloseBtn');
-
-input.addEventListener('input', () => {
-    clearBtn.style.display = input.value ? 'inline' : 'none';
-});
-
-clearBtn.addEventListener('click', () => {
-    input.value = '';
-    clearBtn.style.display = 'none';
-    input.focus();
-});
-
-searchCloseBtn.addEventListener('click', () => {
-    input.value = '';
-});
-
-
-
-
-
 function renderProductSection(containerId, paginationId, filterFn = (products) => products, jsonPath = '../js/products.json') {
     let itemsPerPage = 4; // Mặc định cho màn hình lớn
     let currentPage = 1;
@@ -92,8 +54,8 @@ function renderProductSection(containerId, paginationId, filterFn = (products) =
             </div>`;
             // Thêm sự kiện click để điều hướng theo URL từ JSON
             col.querySelector('.product-item').addEventListener('click', () => {
-                const productUrl = p.url || `/product-detail?id=${p.id || p.name || products.indexOf(p)}`; // Lấy url từ JSON, nếu không có thì dùng id
-                window.location.href = productUrl; // Điều hướng đến URL từ JSON
+                // Lấy url từ JSON, nếu không có thì dùng id
+                window.location.href = p.url || `/product-detail?id=${p.id || p.name || products.indexOf(p)}`; // Điều hướng đến URL từ JSON
             });
             list.appendChild(col);
         });

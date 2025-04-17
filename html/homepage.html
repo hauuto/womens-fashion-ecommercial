@@ -24,13 +24,52 @@
 								<li class="nav-item">
 									<a class="nav-link" href="#">ABOUT US</a>
 								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">COLLECTIONS</a>
+								<li class="nav-item dropdown">
+									<a class="nav-link" href="#" role="button"
+									   aria-haspopup="true" aria-expanded="false">
+										COLLECTIONS
+									</a>
+									<ul class="dropdown-menu px-3 text-start">
+										<li class="d-flex justify-content-between">
+											<div>
+												<a class="nav-link" href="#">Action</a>
+											</div>
+											<div>
+												<a class="nav-link" href="#">Action</a>
+											</div>
+											<div>
+												<a class="nav-link" href="#">Action</a>
+											</div>
+											<div>
+												<a class="nav-link" href="#">Action</a>
+											</div>
+
+										</li>
+										<li class="d-flex justify-content-between">
+											<div>
+												<a class="nav-link" href="#">Action</a>
+											</div>
+											<div>
+												<a class="nav-link" href="#">Action</a>
+											</div>
+											<div>
+												<a class="nav-link" href="#">Action</a>
+											</div>
+											<div>
+												<a class="nav-link" href="#">Action</a>
+											</div>
+										</li>
+									</ul>
 								</li>
+
+
 							</ul>
 						</div>
+
+
+
 						<div class="col-lg-2">
-							<a class="navbar-brand me-lg-5 pe-lg-5 brand" href="#">ARLIGENT<span class="fs-4">&copy;</span></a>
+							<a class="navbar-brand me-lg-5 pe-lg-5 brand" href="#">ARLIGENT<span class="fs-5">&copy;</span></a>
 						</div>
 						<div class="col-lg-4 d-lg-flex justify-content-end">
 							<!--search button========================================-->
@@ -156,9 +195,23 @@
 									<button class="checkout-btn">ОФОРМИТЬ ЗАКАЗ</button>
 								</div>
 							</div>
+
+							<div class="btn-group">
+								<a class="btn btn-light" type="button" id="triggerId"
+										data-bs-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+									<i class="fa-solid fa-user"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end" aria-labelledby="triggerId">
+									<a class="dropdown-item" href="#">Đăng nhập</a>
+									<a class="dropdown-item" href="#">Đăng ký</a>
+								</div>
+							</div>
+
 							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 							</button>
+
 						</div>
 					</div>
 				</nav>
@@ -166,17 +219,45 @@
 
 			<!--Intro video -->
 			<section id="video" class="row">
-				<div class="container col-12 ratio ratio-16x9">
+				<div class=" col-12 ratio ratio-16x9">
 					<video autoplay muted loop id="homePageVideo">
 						<source src="../assets/videos/homepage_vid.mp4" type="video/mp4">
 					</video>
 				</div>
 			</section>
+
+			<section class="row my-5">
+				<div class="container col col-8 col">
+					<div class="row g-3"> <!-- dùng gap đúng cách -->
+						<div class="col-lg-6">
+							<a href="#" class="d-block overflow-hidden">
+								<img src="../assets/images/gallery_leather.jpg" alt="leather" class="img-fluid transition-hover">
+							</a>
+						</div>
+						<div class="col-lg-6">
+							<a href="#" class="d-block overflow-hidden">
+								<img src="../assets/images/gallery_denim.jpg" alt="denim" class="img-fluid transition-hover">
+							</a>
+						</div>
+						<div class="col-lg-6">
+							<a href="#" class="d-block overflow-hidden">
+								<img src="../assets/images/gallery_accessories.jpg" alt="accessories" class="img-fluid transition-hover">
+							</a>
+						</div>
+						<div class="col-lg-6">
+							<a href="#" class="d-block overflow-hidden">
+								<img src="../assets/images/gallery_nylon.jpg" alt="nylon" class="img-fluid transition-hover">
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
 			<!--Best Seller -->
 			<section id="bestSellers" class="row">
 
-				<div class="col-2"></div>
-				<div class="col-8">
+				<div class="container col-2 col-8 col-2">
 					<div class="container my-5">
 						<h1 class="mb-4">Best Sellers</h1>
 						<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="product-list">
@@ -192,12 +273,11 @@
 
 
 				</div>
-				<div class="col-2"></div>
 
 			</section>
 
 			<footer class="bg-light py-4">
-				<div class="container col col-8">
+				<div class="container col-2 col-8 col-2">
 					<div class="row">
 						<!-- Branding Section -->
 						<div class="col-lg-4 col-md-6 mb-4">
@@ -232,13 +312,7 @@
 					</div>
 				</div>
 			</footer>
-
-
-
-
 		</div>
-
-
 
 
 
@@ -248,6 +322,10 @@
 
 		<script src="../js/bootstrap.bundle.min.js"></script>
 		<script src="../js/jquery-3.7.1.min.js"></script>
-		<script src="../js/javascript.js"></script>
+		<script src="../js/main.js"></script>
+		<script src="../js/renderProductSection.js"></script>
+
+
+
 	</body>
 </html>

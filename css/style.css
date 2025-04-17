@@ -23,22 +23,43 @@
 /* header */
 header {
     font-family: 'HeadingNow', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     .brand{
         font-family: 'HeadingNow-Bold', sans-serif;
-        font-size: 70px;
+        font-size: 50px;
         color: #ba4730 !important;
-        letter-spacing: -3px;
+        letter-spacing: -2px;
 
 
     }
 
 
     i{
-        font-size: 30px;
+        font-size: 25px;
     }
 
+    /* Hiện dropdown khi hover */
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    /* Xử lý animation mượt (tuỳ chọn) */
+    .dropdown-menu {
+        margin-top: 0;
+        transition: all 0.3s ease;
+    }
+    .dropdown-item{
+        font-size: 16px;
+        color: #4b4b4b !important;
+        text-decoration: none;
+    }
+
+
 }
+
+
+
+
 h1 {
     font-family: 'HeadingNow-Bold', sans-serif;
     font-size: 60px;
@@ -349,6 +370,18 @@ footer{
     cursor: pointer;
     margin-top: 30px;
 }
+
+
+a img.img-fluid {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+a:hover img.img-fluid {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+
 
 /*custom page-link style */
 .page-link {
