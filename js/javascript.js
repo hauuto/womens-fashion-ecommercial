@@ -83,7 +83,7 @@ function renderProductSection(containerId, paginationId, filterFn = (products) =
             col.className = 'col';
             col.innerHTML = `
             <div class="card h-100 text-center product-item" style="cursor: pointer;">
-              <img src="${p.img}" class="card-img-top" alt="${p.name}" style="height: 300px; object-fit: cover;">
+              <img src="${p.img}" class="card-img-top" alt="${p.name}">
               <div class="card-body">
                 <h6 class="fw-bold">${p.name}</h6>
                 <p class="text-muted small">${p.desc}</p>
