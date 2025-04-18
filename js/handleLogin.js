@@ -15,8 +15,8 @@ function handleLogin() {
 
             if (user) {
                 sessionStorage.setItem("userRole", user.userRole); // Set user role in sessionStorage
+                sessionStorage.setItem("username", user.username); // Set username in sessionStorage
                 window.location.href = "homepage.html";
-                alert("Login successful!");
             } else {
                 alert("Invalid username or password.");
             }

@@ -1,40 +1,44 @@
-function handleRegister() {
+document.addEventListener("DOMContentLoaded", function () {
+    // Đảm bảo admin mặc định chỉ thêm một lần khi load trang
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+    const adminExists = users.some(user => user.username === "admin");
+    if (!adminExists) {
+        users.push({
+            username: "admin",
+            email: "admin@admin.com",
+            password: "admin",
+            userRole: "admin"
+        });
+        localStorage.setItem("users", JSON.stringify(users));
+    }
+
+    // Xử lý đăng ký
     const registerForm = document.getElementById("registerForm");
     if (registerForm) {
         registerForm.addEventListener("submit", function (e) {
             e.preventDefault();
 
-            const username = document.getElementById("username").value;
-            const email = document.getElementById("email").value;
+            const username = document.getElementById("username").value.trim();
+            const email = document.getElementById("email").value.trim();
             const password = document.getElementById("password").value;
             const confirmPassword = document.getElementById("confirmPassword").value;
-            const phoneNumber = document.getElementById("phoneNumber").value;
-            const address = document.getElementById("address").value;
+            const phoneNumber = document.getElementById("phoneNumber").value.trim();
+            const address = document.getElementById("address").value.trim();
             const userRole = "user";
 
-            // Retrieve existing users
             const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
 
-            // Ensure the default admin exists
-            const defaultAdmin = {
-                username: "admin",
-                email: "admin@admin.com",
-                password: "admin",
-                userRole: "admin"
-            };
-            const adminExists = existingUsers.some(user => user.username === defaultAdmin.username);
-            if (!adminExists) {
-                existingUsers.push(defaultAdmin);
-            }
+            const userExists = existingUsers.some(user =>
+                user.username === username ||
+                user.email === email ||
+                user.phoneNumber === phoneNumber
+            );
 
-            // Check if the username or email already exists
-            const userExists = existingUsers.some(user => user.username === username || user.email === email);
             if (userExists) {
-                alert("A user with this username or email already exists.");
+                alert("A user with this username or email or phone already exists.");
                 return;
             }
 
-            // Validation
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
@@ -53,7 +57,6 @@ function handleRegister() {
                 return;
             }
 
-            // Save the new user
             const newUser = { username, email, password, phoneNumber, address, userRole };
             existingUsers.push(newUser);
             localStorage.setItem("users", JSON.stringify(existingUsers));
@@ -61,8 +64,4 @@ function handleRegister() {
             window.location.href = "login.html";
         });
     }
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-    handleRegister();
 });

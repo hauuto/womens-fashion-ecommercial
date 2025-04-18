@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Manage Products</title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+					<!-- Manage Products Section -->
+					<div id="manage-products" class="pt-3">
+						<h2>Manage Products</h2>
+						<div class="d-flex justify-content-between mb-3">
+							<div>
+								<button class="btn btn-secondary" id="backToHomepage">
+									<i class="fa-solid fa-arrow-left"></i> Back to Homepage
+								</button>
+							</div>
+							<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addProductModal">
+								<i class="fa-solid fa-plus"></i> Add Product
+							</button>
+							<input type="text" class="form-control w-25" id="searchProducts" placeholder="Search Products">
+						</div>
+						<div class="table-responsive">
+							<table class="table table-striped">
+								<thead>
+								<tr>
+									<th>#</th>
+									<th>Product Name</th>
+									<th>Price</th>
+									<th>Actions</th>
+								</tr>
+								</thead>
+								<tbody id="productTableBody">
+								<!-- Product rows will be dynamically rendered here -->
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<!-- Manage Users Section -->
+					<div id="manage-users" class="pt-3">
+						<h2>Manage Users</h2>
+						<div class="d-flex justify-content-between mb-3">
+							<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addUserModal">
+								<i class="fa-solid fa-plus"></i> Add User
+							</button>
+						</div>
+						<div class="table-responsive">
+							<table class="table table-striped">
+								<thead>
+								<tr>
+									<th>#</th>
+									<th>Username</th>
+									<th>Email</th>
+									<th>Role</th>
+									<th>Actions</th>
+								</tr>
+								</thead>
+								<tbody id="userTableBody">
+								<!-- User rows will be dynamically rendered here -->
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+
+		<!-- Add Product Modal -->
+		<div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="addProductModalLabel">Add Product</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form id="addProductForm">
+							<div class="mb-3">
+								<label for="productName" class="form-label">Product Name</label>
+								<input type="text" class="form-control" id="productName" required>
+							</div>
+							<div class="mb-3">
+								<label for="productPrice" class="form-label">Price</label>
+								<input type="number" class="form-control" id="productPrice" required>
+							</div>
+							<button type="submit" class="btn btn-primary">Add Product</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Add User Modal -->
+		<div class="modal fade" id="addUserModal" tabindex="-1" aria-labelledby="addUserModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="addUserModalLabel">Add User</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form id="addUserForm">
+							<div class="mb-3">
+								<label for="username" class="form-label">Username</label>
+								<input type="text" class="form-control" id="username" required>
+							</div>
+							<div class="mb-3">
+								<label for="email" class="form-label">Email</label>
+								<input type="email" class="form-control" id="email" required>
+							</div>
+							<div class="mb-3">
+								<label for="role" class="form-label">Role</label>
+								<select class="form-control" id="role" required>
+									<option value="user">User</option>
+									<option value="admin">Admin</option>
+								</select>
+							</div>
+							<button type="submit" class="btn btn-primary">Add User</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Edit User Modal -->
+		<div class="modal fade" id="editUserModal" tabindex="-1" aria-labelledby="editUserModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="editUserModalLabel">Edit User</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form id="editUserForm">
+							<input type="hidden" id="editUserId">
+							<div class="mb-3">
+								<label for="editUsername" class="form-label">Username</label>
+								<input type="text" class="form-control" id="editUsername" required>
+							</div>
+							<div class="mb-3">
+								<label for="editEmail" class="form-label">Email</label>
+								<input type="email" class="form-control" id="editEmail" required>
+							</div>
+							<div class="mb-3">
+								<label for="editRole" class="form-label">Role</label>
+								<select class="form-control" id="editRole" required>
+									<option value="user">User</option>
+									<option value="admin">Admin</option>
+								</select>
+							</div>
+							<button type="submit" class="btn btn-primary">Save Changes</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/bootstrap.bundle.min.js"></script>
+		<script src="../js/jquery-3.7.1.min.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				const productTableBody = document.getElementById("productTableBody");
+				const addProductForm = document.getElementById("addProductForm");
+				const searchProducts = document.getElementById("searchProducts");
+				let products = [];
+
+				// Fetch products from products.json
+				fetch("../data/products.json")
+						.then(response => response.json())
+						.then(data => {
+							products = data;
+							renderProducts(products);
+						})
+						.catch(error => console.error("Error fetching products:", error));
+
+				// Render products in the table
+				function renderProducts(productList) {
+					productTableBody.innerHTML = "";
+					productList.forEach((product, index) => {
+						const row = document.createElement("tr");
+						row.innerHTML = `
+            <td>${index + 1}</td>
+            <td>${product.name}</td>
+            <td>${product.price}</td>
+            <td>
+              <button class="btn btn-sm btn-danger delete-product" data-index="${index}">Delete</button>
+            </td>
+          `;
+						productTableBody.appendChild(row);
+					});
+				}
+
+				// Add product functionality
+				addProductForm.addEventListener("submit", (event) => {
+					event.preventDefault();
+					const productName = document.getElementById("productName").value.trim();
+					const productPrice = document.getElementById("productPrice").value.trim();
+
+					if (productName && productPrice) {
+						products.push({ name: productName, price: productPrice });
+						renderProducts(products);
+						addProductForm.reset();
+						const modal = bootstrap.Modal.getInstance(document.getElementById("addProductModal"));
+						modal.hide();
+					}
+				});
+
+				// Delete product functionality
+				productTableBody.addEventListener("click", (event) => {
+					if (event.target.classList.contains("delete-product")) {
+						const index = event.target.getAttribute("data-index");
+						products.splice(index, 1);
+						renderProducts(products);
+					}
+				});
+
+				// Search products functionality
+				searchProducts.addEventListener("input", (event) => {
+					const query = event.target.value.toLowerCase();
+					const filteredProducts = products.filter(product =>
+							product.name.toLowerCase().includes(query)
+					);
+					renderProducts(filteredProducts);
+				});
+			});
+
+			document.getElementById("backToHomepage").addEventListener("click", () => {
+				window.location.href = "homepage.html";
+			});
+
+
+
+			document.addEventListener("DOMContentLoaded", () => {
+				const userTableBody = document.getElementById("userTableBody");
+				const addUserForm = document.getElementById("addUserForm");
+				const editUserForm = document.getElementById("editUserForm");
+				let users = JSON.parse(localStorage.getItem("users")) || [];
+
+				// Render users in the table
+				function renderUsers() {
+					userTableBody.innerHTML = "";
+					users.forEach((user, index) => {
+						const row = document.createElement("tr");
+						row.innerHTML = `
+          <td>${index + 1}</td>
+          <td>${user.username}</td>
+          <td>${user.email}</td>
+          <td>${user.userRole}</td>
+          <td>
+            <button class="btn btn-sm btn-warning edit-user" data-index="${index}" data-bs-toggle="modal" data-bs-target="#editUserModal">Edit</button>
+            <button class="btn btn-sm btn-danger delete-user" data-index="${index}">Delete</button>
+          </td>
+        `;
+						userTableBody.appendChild(row);
+					});
+				}
+
+				// Add user functionality
+				addUserForm.addEventListener("submit", (event) => {
+					event.preventDefault();
+					const username = document.getElementById("username").value.trim();
+					const email = document.getElementById("email").value.trim();
+					const role = document.getElementById("role").value;
+
+					if (username && email && role) {
+						users.push({ username, email, userRole: role });
+						localStorage.setItem("users", JSON.stringify(users));
+						renderUsers();
+						addUserForm.reset();
+						const modal = bootstrap.Modal.getInstance(document.getElementById("addUserModal"));
+						modal.hide();
+					}
+				});
+
+				// Edit user functionality
+				userTableBody.addEventListener("click", (event) => {
+					if (event.target.classList.contains("edit-user")) {
+						const index = event.target.getAttribute("data-index");
+						const user = users[index];
+						document.getElementById("editUserId").value = index;
+						document.getElementById("editUsername").value = user.username;
+						document.getElementById("editEmail").value = user.email;
+						document.getElementById("editRole").value = user.userRole;
+					}
+				});
+
+				editUserForm.addEventListener("submit", (event) => {
+					event.preventDefault();
+					const index = document.getElementById("editUserId").value;
+					const username = document.getElementById("editUsername").value.trim();
+					const email = document.getElementById("editEmail").value.trim();
+					const role = document.getElementById("editRole").value;
+
+					if (username && email && role) {
+						users[index] = { username, email, userRole: role };
+						localStorage.setItem("users", JSON.stringify(users));
+						renderUsers();
+						const modal = bootstrap.Modal.getInstance(document.getElementById("editUserModal"));
+						modal.hide();
+					}
+				});
+
+				// Delete user functionality
+				userTableBody.addEventListener("click", (event) => {
+					if (event.target.classList.contains("delete-user")) {
+						const index = event.target.getAttribute("data-index");
+						users.splice(index, 1);
+						localStorage.setItem("users", JSON.stringify(users));
+						renderUsers();
+					}
+				});
+
+				// Initial render
+				renderUsers();
+			});
+		</script>
+	</body>
+</html>

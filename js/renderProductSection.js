@@ -1,4 +1,4 @@
-function renderProductSection(containerId, paginationId, filterFn = (products) => products, jsonPath = '../js/products.json') {
+function renderProductSection(containerId, paginationId, filterFn = (products) => products, jsonPath = '../data/products.json') {
     let itemsPerPage = 4; // Mặc định cho màn hình lớn
     let currentPage = 1;
     let products = [];
@@ -167,4 +167,4 @@ function renderProductSection(containerId, paginationId, filterFn = (products) =
 //best seller
 renderProductSection('product-list', 'pagination', (products) => {
     return products.filter(p => p.label === "best seller");
-}, '../js/products.json');
+}, '../data/products.json');

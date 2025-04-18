@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>User Profile</title>
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
+	</head>
+	<body>
+		<div class="container mt-5">
+			<h1>User Profile</h1>
+			<form id="userProfileForm">
+				<div class="mb-3">
+					<label for="username" class="form-label">Username</label>
+					<input type="text" class="form-control" id="username" readonly>
+				</div>
+				<div class="mb-3">
+					<label for="email" class="form-label">Email</label>
+					<input type="email" class="form-control" id="email" required>
+				</div>
+				<div class="mb-3">
+					<label for="password" class="form-label">Password</label>
+					<input type="password" class="form-control" id="password" required>
+				</div>
+				<div class="mb-3">
+					<label for="phoneNumber" class="form-label">Phone Number</label>
+					<input type="text" class="form-control" id="phoneNumber">
+				</div>
+				<div class="mb-3">
+					<label for="address" class="form-label">Address</label>
+					<input type="text" class="form-control" id="address">
+				</div>
+				<div class="mb-3">
+					<label for="userRole" class="form-label">Role</label>
+					<input type="text" class="form-control" id="userRole" readonly>
+				</div>
+				<button type="submit" class="btn btn-primary">Save Changes</button>
+			</form>
+		</div>
+
+		<script src="../js/bootstrap.bundle.min.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				// Retrieve user data from localStorage
+				const users = JSON.parse(localStorage.getItem("users")) || [];
+				const currentUser = sessionStorage.getItem("username");
+				const user = users.find(u => u.username === currentUser);
+
+				if (user) {
+					// Populate the form with user data
+					document.getElementById("username").value = user.username || "";
+					document.getElementById("email").value = user.email || "";
+					document.getElementById("password").value = user.password || "";
+					document.getElementById("phoneNumber").value = user.phoneNumber || "";
+					document.getElementById("address").value = user.address || "";
+					document.getElementById("userRole").value = user.userRole || "N/A";
+				} else {
+					alert("User not found!");
+				}
+
+				// Handle form submission
+				document.getElementById("userProfileForm").addEventListener("submit", (event) => {
+					event.preventDefault();
+
+					// Get updated values
+					const updatedEmail = document.getElementById("email").value.trim();
+					const updatedPassword = document.getElementById("password").value.trim();
+					const updatedPhoneNumber = document.getElementById("phoneNumber").value.trim();
+					const updatedAddress = document.getElementById("address").value.trim();
+
+					// Update user data in localStorage
+					if (user) {
+						user.email = updatedEmail;
+						user.password = updatedPassword;
+						user.phoneNumber = updatedPhoneNumber;
+						user.address = updatedAddress;
+
+						// Save updated users array to localStorage
+						localStorage.setItem("users", JSON.stringify(users));
+						alert("User information updated successfully!");
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
