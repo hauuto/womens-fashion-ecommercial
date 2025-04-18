@@ -45,17 +45,16 @@ function renderProductSection(containerId, paginationId, filterFn = (products) =
             col.className = 'col';
             col.innerHTML = `
             <div class="card h-100 text-center product-item" style="cursor: pointer;">
-              <img src="${p.img}" class="card-img-top" alt="${p.name}">
+              <img src="${p.images[0]}" class="card-img-top" alt="${p.title}">
               <div class="card-body">
-                <h6 class="fw-bold">${p.name}</h6>
-                <p class="text-muted small">${p.desc}</p>
+                <h6 class="fw-bold">${p.title}</h6>
+                <p class="text-muted small">${p.description[0]}</p>
                 <p>${p.price}</p>
               </div>
             </div>`;
             // Thêm sự kiện click để điều hướng theo URL từ JSON
             col.querySelector('.product-item').addEventListener('click', () => {
-                // Lấy url từ JSON, nếu không có thì dùng id
-                window.location.href = p.url || `/product-detail?id=${p.id || p.name || products.indexOf(p)}`; // Điều hướng đến URL từ JSON
+                window.location.href = `../html/product-detail.html?id=${p.id}`;
             });
             list.appendChild(col);
         });
@@ -166,5 +165,5 @@ function renderProductSection(containerId, paginationId, filterFn = (products) =
 
 //best seller
 renderProductSection('product-list', 'pagination', (products) => {
-    return products.filter(p => p.label === "best seller");
+    return products.filter(p => p.tags.includes('best seller'));
 }, '../data/products.json');

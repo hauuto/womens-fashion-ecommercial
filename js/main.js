@@ -80,14 +80,14 @@ document.addEventListener("DOMContentLoaded", () => {
         if (userRole === "admin") {
             console.log("Setting dropdown for admin");
             dropdownMenu.innerHTML = `
-                <a class="dropdown-item" href="../html/admin_manage.html">Manage</a>
+                <a class="dropdown-item" href="../html/admin-manage.html">Manage</a>
                 <a class="dropdown-item" href="../html/logout.html">Logout</a>
             `;
             triggerButton.innerHTML = `<i class="fa-solid fa-user-shield"></i>`;
         } else if (userRole === "user") {
             console.log("Setting dropdown for user");
             dropdownMenu.innerHTML = `
-                <a class="dropdown-item" href="../html/user_profile.html">User Profile</a>
+                <a class="dropdown-item" href="../html/user-profile.html">User Profile</a>
                 <a class="dropdown-item" href="../html/logout.html">Logout</a>
             `;
             triggerButton.innerHTML = `<i class="fa-solid fa-user"></i>`;
