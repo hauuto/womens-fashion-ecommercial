@@ -1,29 +1,24 @@
-/**
- * Handles user login.
- */
 function handleLogin() {
     const loginForm = document.getElementById("loginForm");
     if (loginForm) {
         loginForm.addEventListener("submit", function (e) {
             e.preventDefault();
 
-            const email = document.getElementById("email").value;
+            const username = document.getElementById("username").value;
             const password = document.getElementById("password").value;
 
             // Retrieve user info from local storage
-            const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+            const users = JSON.parse(localStorage.getItem("users")) || [];
 
-            if (!userInfo) {
-                alert("No user found. Please register first.");
-                return;
-            }
+            // Find the user by username
+            const user = users.find(user => user.username === username && user.password === password);
 
-            if (userInfo.email === email && userInfo.password === password) {
-                sessionStorage.setItem("userRole", userInfo.userRole); // Set user role in sessionStorage
+            if (user) {
+                sessionStorage.setItem("userRole", user.userRole); // Set user role in sessionStorage
                 window.location.href = "homepage.html";
                 alert("Login successful!");
             } else {
-                alert("Invalid email or password.");
+                alert("Invalid username or password.");
             }
         });
     }

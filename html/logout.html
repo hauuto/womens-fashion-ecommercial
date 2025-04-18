@@ -5,15 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Logout</title>
 		<script>
-			// Clear user session and redirect to login page
 			document.addEventListener("DOMContentLoaded", () => {
-				// Clear session storage or cookies
-				sessionStorage.clear();
-				localStorage.clear();
-				document.cookie = "userSession=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+				// Clear session data only
+				sessionStorage.removeItem("userRole");
 
-				// Redirect to login page
-				window.location.href = "login.html";
+				// Redirect to login page after a short delay
+				setTimeout(() => {
+					window.location.href = "login.html";
+				}, 2000);
 			});
 		</script>
 	</head>

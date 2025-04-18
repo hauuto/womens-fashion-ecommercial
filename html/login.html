@@ -19,8 +19,8 @@
 				<h1 class="text-center mb-4">Log In</h1>
 				<form id="loginForm" class="container col-2 col-8 col-2">
 					<div class="mb-3">
-						<label for="email" class="form-label">Email</label>
-						<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+						<label for="username" class="form-label">Username</label>
+						<input type="text" class="form-control" id="username" placeholder="Enter your username" required>
 					</div>
 					<div class="mb-3">
 						<label for="password" class="form-label">Password</label>
@@ -29,6 +29,7 @@
 					<button type="submit" class="btn btn-primary w-100" onclick="handleLogin()">Log In</button>
 					<p class="text-center mt-3">Don't have an account? <a href="register.html">Register</a></p>
 				</form>
+				<button id="continueWithoutAccount" class="btn secondary container col-2 col-8 col-2">Continue Without Account</button>
 			</section>
 
 
@@ -41,5 +42,10 @@
 
 		<script src="../js/bootstrap.bundle.min.js"></script>
 		<script src="../js/handleLogin.js"></script>
+		<script>
+			document.getElementById("continueWithoutAccount").addEventListener("click", () => {
+				window.location.href = "homepage.html"; // Redirect to homepage or guest-access page
+			});
+		</script>
 	</body>
 </html>
