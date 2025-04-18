@@ -9,9 +9,1056 @@
     "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
     "images": [
       "../assets/images/product11.png",
-      "../assets/images/product12.png",
-      "../assets/images/product13.png",
-      "../assets/images/product14.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
+      "../assets/images/product15.png",
+      "../assets/images/product16.png"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "description": [
+      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
+      "Регулярный фит",
+      "Короткий рукав",
+      "Размер S соответствует мужскому S.",
+      "Рекомендована бережная стирка при температуре не выше 30°C.",
+      "Цвет: чёрный",
+      "Состав: 100% хлопок",
+      "Страна-производитель: Турция"
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "1",
+    "title": "Футболка из хлопка черная",
+    "price": "5990",
+    "currency": "RUB",
+    "category": "Áo thun",
+    "collection": "Summer 2024",
+    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "images": [
+      "../assets/images/product11.png",
       "../assets/images/product15.png",
       "../assets/images/product16.png"
     ],
@@ -32,4 +1079,5 @@
       "addToWishlist": true
     }
   }
+
 ]
