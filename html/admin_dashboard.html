@@ -36,6 +36,11 @@
 								</a>
 							</li>
 							<li class="nav-item">
+								<a class="nav-link" href="#analytics">
+									<i class="fa-solid fa-chart-pie"></i> Analytics
+								</a>
+							</li>
+							<li class="nav-item">
 								<a class="nav-link" href="#settings">
 									<i class="fa-solid fa-gear"></i> Settings
 								</a>
@@ -46,16 +51,21 @@
 
 				<!-- Main Content -->
 				<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+					<!-- Dashboard Section -->
 					<div id="dashboard" class="pt-3">
 						<h2>Dashboard</h2>
 						<p>Welcome to the admin panel. Use the sidebar to navigate through the sections.</p>
 					</div>
 
+					<!-- Manage Products Section -->
 					<div id="manage-products" class="pt-3">
 						<h2>Manage Products</h2>
-						<button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#addProductModal">
-							<i class="fa-solid fa-plus"></i> Add Product
-						</button>
+						<div class="d-flex justify-content-between mb-3">
+							<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addProductModal">
+								<i class="fa-solid fa-plus"></i> Add Product
+							</button>
+							<input type="text" class="form-control w-25" placeholder="Search Products">
+						</div>
 						<div class="table-responsive">
 							<table class="table table-striped">
 								<thead>
@@ -73,8 +83,12 @@
 						</div>
 					</div>
 
+					<!-- Manage Orders Section -->
 					<div id="manage-orders" class="pt-3">
 						<h2>Manage Orders</h2>
+						<div class="d-flex justify-content-between mb-3">
+							<input type="text" class="form-control w-25" placeholder="Search Orders">
+						</div>
 						<div class="table-responsive">
 							<table class="table table-striped">
 								<thead>
@@ -93,8 +107,12 @@
 						</div>
 					</div>
 
+					<!-- Manage Users Section -->
 					<div id="manage-users" class="pt-3">
 						<h2>Manage Users</h2>
+						<div class="d-flex justify-content-between mb-3">
+							<input type="text" class="form-control w-25" placeholder="Search Users">
+						</div>
 						<div class="table-responsive">
 							<table class="table table-striped">
 								<thead>
@@ -113,9 +131,43 @@
 						</div>
 					</div>
 
+					<!-- Analytics Section -->
+					<div id="analytics" class="pt-3">
+						<h2>Analytics</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">Sales Overview</h5>
+										<canvas id="salesChart"></canvas>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">User Growth</h5>
+										<canvas id="userChart"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Settings Section -->
 					<div id="settings" class="pt-3">
 						<h2>Settings</h2>
-						<p>Configure application settings here.</p>
+						<form>
+							<div class="mb-3">
+								<label for="siteName" class="form-label">Site Name</label>
+								<input type="text" class="form-control" id="siteName" placeholder="Enter site name">
+							</div>
+							<div class="mb-3">
+								<label for="adminEmail" class="form-label">Admin Email</label>
+								<input type="email" class="form-control" id="adminEmail" placeholder="Enter admin email">
+							</div>
+							<button type="submit" class="btn btn-primary">Save Settings</button>
+						</form>
 					</div>
 				</main>
 			</div>
@@ -141,7 +193,7 @@
 							</div>
 							<div class="mb-3">
 								<label for="productDescription" class="form-label">Description</label>
-								<textarea class="form-control" id="productDescription" rows="3"></textarea>
+								<textarea class="form-control" id="productDescription" rows="3" required></textarea>
 							</div>
 							<button type="submit" class="btn btn-primary">Add Product</button>
 						</form>
@@ -152,8 +204,79 @@
 
 		<script src="../js/bootstrap.bundle.min.js"></script>
 		<script src="../js/jquery-3.7.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 		<script>
-			// Add JavaScript for dynamic rendering and event handling here
+			document.addEventListener("DOMContentLoaded", () => {
+				// Initialize Charts
+				const salesCtx = document.getElementById("salesChart").getContext("2d");
+				const userCtx = document.getElementById("userChart").getContext("2d");
+
+				new Chart(salesCtx, {
+					type: "line",
+					data: {
+						labels: ["Jan", "Feb", "Mar", "Apr", "May"],
+						datasets: [{
+							label: "Sales",
+							data: [10, 20, 30, 40, 50],
+							borderColor: "blue",
+							fill: false
+						}]
+					}
+				});
+
+				new Chart(userCtx, {
+					type: "bar",
+					data: {
+						labels: ["Jan", "Feb", "Mar", "Apr", "May"],
+						datasets: [{
+							label: "Users",
+							data: [5, 10, 15, 20, 25],
+							backgroundColor: "green"
+						}]
+					}
+				});
+
+				// Add Product Functionality
+				const addProductForm = document.getElementById("addProductForm");
+				const productTableBody = document.querySelector("#manage-products tbody");
+				let productCount = 0;
+
+				addProductForm.addEventListener("submit", (event) => {
+					event.preventDefault();
+
+					const productName = document.getElementById("productName").value.trim();
+					const productPrice = document.getElementById("productPrice").value.trim();
+					const productDescription = document.getElementById("productDescription").value.trim();
+
+					if (!productName || !productPrice || !productDescription) {
+						alert("All fields are required!");
+						return;
+					}
+
+					productCount++;
+					const newRow = document.createElement("tr");
+					newRow.innerHTML = `
+        <td>${productCount}</td>
+        <td>${productName}</td>
+        <td>${productPrice}</td>
+        <td>
+          <button class="btn btn-sm btn-danger delete-product">Delete</button>
+        </td>
+      `;
+					productTableBody.appendChild(newRow);
+
+					addProductForm.reset();
+					const modal = bootstrap.Modal.getInstance(document.getElementById("addProductModal"));
+					modal.hide();
+				});
+
+				// Delete Product Functionality
+				productTableBody.addEventListener("click", (event) => {
+					if (event.target.classList.contains("delete-product")) {
+						event.target.closest("tr").remove();
+					}
+				});
+			});
 		</script>
 	</body>
 </html>
