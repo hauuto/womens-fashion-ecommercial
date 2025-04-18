@@ -11,6 +11,7 @@ function handleRegister() {
             const email = document.getElementById("email").value;
             const password = document.getElementById("password").value;
             const confirmPassword = document.getElementById("confirmPassword").value;
+            const userRole = "user" // Get user role
 
             // Regex validation
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -32,8 +33,7 @@ function handleRegister() {
             }
 
             // Save to local storage
-            const userInfo = { username, email, password };
-            localStorage.setItem("userInfo", JSON.stringify(userInfo));
+            const userInfo = { username, email, password, userRole };
             window.location.href = "login.html";
         });
     }

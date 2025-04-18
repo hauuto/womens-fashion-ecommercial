@@ -33,3 +33,4 @@ async function loadHeaderFooter() {
 document.addEventListener('DOMContentLoaded', function () {
     loadHeaderFooter();
 });
+

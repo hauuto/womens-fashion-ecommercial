@@ -19,8 +19,9 @@ function handleLogin() {
             }
 
             if (userInfo.email === email && userInfo.password === password) {
-                alert("Login successful!");
+                sessionStorage.setItem("userRole", userInfo.userRole); // Set user role in sessionStorage
                 window.location.href = "homepage.html";
+                alert("Login successful!");
             } else {
                 alert("Invalid email or password.");
             }

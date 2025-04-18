@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Logout</title>
+		<script>
+			// Clear user session and redirect to login page
+			document.addEventListener("DOMContentLoaded", () => {
+				// Clear session storage or cookies
+				sessionStorage.clear();
+				localStorage.clear();
+				document.cookie = "userSession=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+				// Redirect to login page
+				window.location.href = "login.html";
+			});
+		</script>
+	</head>
+	<body>
+		<p>Logging out...</p>
+	</body>
+</html>
