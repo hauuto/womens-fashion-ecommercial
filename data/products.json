@@ -1,27 +1,42 @@
 [
   {
     "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "accessories",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\accessories11.jpg",
+      "..\\assets\\images\\accessories12.jpg",
+      "..\\assets\\images\\accessories13.jpg",
+      "..\\assets\\images\\accessories14.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -30,28 +45,41 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "2",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "accessories",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\accessories21.jpg",
+      "..\\assets\\images\\accessories22.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -60,28 +88,43 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "3",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "accessories",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\accessories31.jpg",
+      "..\\assets\\images\\accessories32.jpg",
+      "..\\assets\\images\\accessories33.jpg",
+      "..\\assets\\images\\accessories34.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -90,28 +133,43 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "4",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "accessories",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\accessories41.jpg",
+      "..\\assets\\images\\accessories42.jpg",
+      "..\\assets\\images\\accessories43.jpg",
+      "..\\assets\\images\\accessories44.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -120,28 +178,46 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "5",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "denim",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\denim10.jpg",
+      "..\\assets\\images\\denim11.jpg",
+      "..\\assets\\images\\denim12.jpg",
+      "..\\assets\\images\\denim13.jpg",
+      "..\\assets\\images\\denim14.jpg",
+      "..\\assets\\images\\denim15.jpg",
+      "..\\assets\\images\\denim16.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -150,28 +226,43 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "6",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "denim",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\denim20.jpg",
+      "..\\assets\\images\\denim21.jpg",
+      "..\\assets\\images\\denim22.jpg",
+      "..\\assets\\images\\denim23.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -180,28 +271,42 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "7",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "denim",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\denim30.jpg",
+      "..\\assets\\images\\denim31.jpg",
+      "..\\assets\\images\\denim32.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -210,28 +315,41 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "8",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "denim",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\denim40.jpg",
+      "..\\assets\\images\\denim41.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -240,28 +358,43 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "9",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "leather",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\leather11.jpg",
+      "..\\assets\\images\\leather12.jpg",
+      "..\\assets\\images\\leather13.jpg",
+      "..\\assets\\images\\leather14.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -270,28 +403,41 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "10",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "leather",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\leather21.jpg",
+      "..\\assets\\images\\leather23.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -300,28 +446,42 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "11",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "leather",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\leather31.jpg",
+      "..\\assets\\images\\leather32.jpg",
+      "..\\assets\\images\\leather33.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -330,28 +490,41 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "12",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "leather",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\leather41.jpg",
+      "..\\assets\\images\\leather42.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -360,28 +533,44 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "13",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "leather",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\leather51.jpg",
+      "..\\assets\\images\\leather52.jpg",
+      "..\\assets\\images\\leather53.jpg",
+      "..\\assets\\images\\leather54.jpg",
+      "..\\assets\\images\\leather55.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -390,28 +579,42 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "14",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "leather",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\leather61.jpg",
+      "..\\assets\\images\\leather62.jpg",
+      "..\\assets\\images\\leather63.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -420,28 +623,41 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "15",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "nylon",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\nylon11.jpg",
+      "..\\assets\\images\\nylon12.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -450,28 +666,41 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "16",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "nylon",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\nylon21.jpg",
+      "..\\assets\\images\\nylon22.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -480,28 +709,41 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "17",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "nylon",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\nylon31.jpg",
+      "..\\assets\\images\\nylon32.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -510,28 +752,42 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "18",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\product11.png",
+      "..\\assets\\images\\product15.png",
+      "..\\assets\\images\\product16.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -540,28 +796,44 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "19",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\product21.jpg",
+      "..\\assets\\images\\product22.jpg",
+      "..\\assets\\images\\product23.jpg",
+      "..\\assets\\images\\product24.jpg",
+      "..\\assets\\images\\product25.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -570,28 +842,43 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "20",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\product31.jpg",
+      "..\\assets\\images\\product32.jpg",
+      "..\\assets\\images\\product33.jpg",
+      "..\\assets\\images\\product34.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -600,28 +887,45 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "21",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\product41.jpg",
+      "..\\assets\\images\\product42.jpg",
+      "..\\assets\\images\\product43.jpg",
+      "..\\assets\\images\\product44.jpg",
+      "..\\assets\\images\\product45.jpg",
+      "..\\assets\\images\\product46.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -630,28 +934,45 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "22",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\product51.jpg",
+      "..\\assets\\images\\product52.jpg",
+      "..\\assets\\images\\product53.jpg",
+      "..\\assets\\images\\product54.jpg",
+      "..\\assets\\images\\product55.jpg",
+      "..\\assets\\images\\product56.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -660,28 +981,46 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "23",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\product61.jpg",
+      "..\\assets\\images\\product62.jpg",
+      "..\\assets\\images\\product63.jpg",
+      "..\\assets\\images\\product64.jpg",
+      "..\\assets\\images\\product65.jpg",
+      "..\\assets\\images\\product66.jpg",
+      "..\\assets\\images\\product67.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -690,28 +1029,45 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "24",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\product71.jpg",
+      "..\\assets\\images\\product72.jpg",
+      "..\\assets\\images\\product73.jpg",
+      "..\\assets\\images\\product74.jpg",
+      "..\\assets\\images\\product75.jpg",
+      "..\\assets\\images\\product76.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -720,28 +1076,46 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "25",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\product81.jpg",
+      "..\\assets\\images\\product82.jpg",
+      "..\\assets\\images\\product83.jpg",
+      "..\\assets\\images\\product84.jpg",
+      "..\\assets\\images\\product85.jpg",
+      "..\\assets\\images\\product86.jpg",
+      "..\\assets\\images\\product87.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -750,28 +1124,46 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "26",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "queen",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\queen11.jpg",
+      "..\\assets\\images\\queen12.jpg",
+      "..\\assets\\images\\queen13.jpg",
+      "..\\assets\\images\\queen14.jpg",
+      "..\\assets\\images\\queen15.jpg",
+      "..\\assets\\images\\queen16.jpg",
+      "..\\assets\\images\\queen17.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -780,28 +1172,44 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "27",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "queen",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\queen21.jpg",
+      "..\\assets\\images\\queen22.jpg",
+      "..\\assets\\images\\queen23.jpg",
+      "..\\assets\\images\\queen24.jpg",
+      "..\\assets\\images\\queen25.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -810,28 +1218,44 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "28",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "queen",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\queen31.jpg",
+      "..\\assets\\images\\queen32.jpg",
+      "..\\assets\\images\\queen33.jpg",
+      "..\\assets\\images\\queen34.jpg",
+      "..\\assets\\images\\queen35.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -840,28 +1264,46 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "29",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "queen",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\queen41.jpg",
+      "..\\assets\\images\\queen42.jpg",
+      "..\\assets\\images\\queen43.jpg",
+      "..\\assets\\images\\queen44.jpg",
+      "..\\assets\\images\\queen45.jpg",
+      "..\\assets\\images\\queen46.jpg",
+      "..\\assets\\images\\queen47.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -870,28 +1312,47 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+    "id": "30",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "queen",
+    "tags": [
+      "best seller"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "images": [
+      "..\\assets\\images\\queen51.jpg",
+      "..\\assets\\images\\queen52.jpg",
+      "..\\assets\\images\\queen53.jpg",
+      "..\\assets\\images\\queen54.jpg",
+      "..\\assets\\images\\queen55.jpg",
+      "..\\assets\\images\\queen56.jpg",
+      "..\\assets\\images\\queen57.jpg",
+      "..\\assets\\images\\queen58.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -900,178 +1361,46 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
+    "id": "31",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "queen",
+    "tags": [
+      "best seller"
+    ],
     "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+      "..\\assets\\images\\queen61.jpg",
+      "..\\assets\\images\\queen62.jpg",
+      "..\\assets\\images\\queen63.jpg",
+      "..\\assets\\images\\queen64.jpg",
+      "..\\assets\\images\\queen65.jpg",
+      "..\\assets\\images\\queen66.jpg",
+      "..\\assets\\images\\queen67.jpg"
     ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
-    ],
-    "available": true,
-    "actions": {
-      "addToCart": true,
-      "addToWishlist": true
-    }
-  },
-  {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
-    ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
-    ],
-    "available": true,
-    "actions": {
-      "addToCart": true,
-      "addToWishlist": true
-    }
-  },
-  {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
-    ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
-    ],
-    "available": true,
-    "actions": {
-      "addToCart": true,
-      "addToWishlist": true
-    }
-  },
-  {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
-    ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
-    ],
-    "available": true,
-    "actions": {
-      "addToCart": true,
-      "addToWishlist": true
-    }
-  },
-  {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
-    ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
-    ],
-    "available": true,
-    "actions": {
-      "addToCart": true,
-      "addToWishlist": true
-    }
-  },
-  {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
-    "currency": "RUB",
-    "category": "Áo thun",
-    "collection": "Summer 2024",
-    "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
-    "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
-    ],
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "description": [
-      "Базовая футболка из плотного, хорошо держащего форму и мягкого хлопка с peach-эффектом. Детали решают: бархатистая фактура, объемный принт-лого в тон на спине.",
-      "Регулярный фит",
-      "Короткий рукав",
-      "Размер S соответствует мужскому S.",
-      "Рекомендована бережная стирка при температуре не выше 30°C.",
-      "Цвет: чёрный",
-      "Состав: 100% хлопок",
-      "Страна-производитель: Турция"
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
     ],
     "available": true,
     "actions": {
@@ -1079,5 +1408,4 @@
       "addToWishlist": true
     }
   }
-
 ]

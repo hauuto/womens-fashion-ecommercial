@@ -9,14 +9,19 @@
 		<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
 	</head>
 	<body>
-		<div class="container-fluid my-5">
+		<div class="container-fluid">
 			<header class="mb-4">
-				<!-- Add header content here if needed -->
 			</header>
-			<h1 class="mb-4">Product List</h1>
-			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="productGrid">
-				<!-- Products will be dynamically loaded here -->
+
+
+			<h1 class="mb-4 mt-5 text-center" id="productList">Product List</h1>
+			<div class="d-flex justify-content-center">
+				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 col-8" id="productGrid">
+					<!-- Products will be dynamically loaded here -->
+				</div>
 			</div>
+
+
 			<div class="text-center mt-4">
 				<button id="loadMoreBtn" class="btn btn-primary">Load More</button>
 			</div>
