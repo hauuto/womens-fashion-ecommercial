@@ -15,17 +15,22 @@ async function fetchProducts(filterFn = null) {
 
         // Reset current index and render products
         currentIndex = 0;
-        updateHeader(filterFn ? 'Filtered Product List' : 'Product List');
         renderProducts();
     } catch (error) {
         console.error('Error fetching products:', error);
     }
 }
 
+
 // Update the header dynamically
-function updateHeader(title) {
+function updateHeader(filter = null) {
     const productListTitle = document.getElementById('productList');
-    productListTitle.textContent = title;
+    if (typeof filter === 'string' && filter.length > 0) {
+        const formattedFilter = filter.charAt(0).toUpperCase() + filter.slice(1); // Capitalize the filter name
+        productListTitle.textContent = `${formattedFilter}`;
+    } else {
+        productListTitle.textContent = 'Product List';
+    }
 }
 
 // Render products dynamically
@@ -67,12 +72,25 @@ function renderProducts() {
     if (currentIndex >= products.length) {
         loadMoreBtn.style.display = 'none';
     } else {
-        loadMoreBtn.style.display = 'block';
+        loadMoreBtn.style.display = 'inline';
     }
 }
 
 // Event listener for "Load More" button
 document.getElementById('loadMoreBtn').addEventListener('click', renderProducts);
 
-// Example usage with a filter
-fetchProducts((product) => product.tags.includes('best seller'));
+// Add event listeners to dropdown items
+document.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    var filter = urlParams.get('filter'); // Get the filter from the query parameter
+    updateHeader(filter);
+    if (filter === 'arliqueen'){
+        filter = 'queen'
+    }
+
+    if (filter) {
+        fetchProducts((product) => product.collection === filter); // Apply the filter
+    } else {
+        fetchProducts(); // Render all products if no filter
+    }
+});

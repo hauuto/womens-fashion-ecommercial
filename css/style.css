@@ -585,3 +585,15 @@ footer{
 }
 
 
+.ellipsis {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ensure it takes the full height of its container */
+    vertical-align: middle;
+}
+
+
+.nav-link:hover{
+    color: #ba4730 !important;
+}

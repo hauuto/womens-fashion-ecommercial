@@ -96,3 +96,20 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }, 200); // Delay of 2 seconds
 });
+
+
+// Add event listeners to dropdown items
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdownItems = document.querySelectorAll('.dropdown-menu .nav-link');
+
+    dropdownItems.forEach(item => {
+        item.addEventListener('click', (event) => {
+            event.preventDefault(); // Prevent default link behavior
+            const filter = item.textContent.trim().toLowerCase(); // Get the filter name
+            window.location.href = `../html/product-list.html?filter=${filter}`; // Redirect with filter
+        });
+    });
+});
+
+
+

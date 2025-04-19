@@ -1,5 +1,187 @@
 [
   {
+    "id": "18",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
+    ],
+    "images": [
+      "..\\assets\\images\\product11.png",
+      "..\\assets\\images\\product15.png",
+      "..\\assets\\images\\product16.png"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": [
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "19",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
+    ],
+    "images": [
+      "..\\assets\\images\\product21.jpg",
+      "..\\assets\\images\\product22.jpg",
+      "..\\assets\\images\\product23.jpg",
+      "..\\assets\\images\\product24.jpg",
+      "..\\assets\\images\\product25.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": [
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "20",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
+    ],
+    "images": [
+      "..\\assets\\images\\product31.jpg",
+      "..\\assets\\images\\product32.jpg",
+      "..\\assets\\images\\product33.jpg",
+      "..\\assets\\images\\product34.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": [
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "21",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "product",
+    "tags": [
+      "best seller"
+    ],
+    "images": [
+      "..\\assets\\images\\product41.jpg",
+      "..\\assets\\images\\product42.jpg",
+      "..\\assets\\images\\product43.jpg",
+      "..\\assets\\images\\product44.jpg",
+      "..\\assets\\images\\product45.jpg",
+      "..\\assets\\images\\product46.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": [
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
     "id": "1",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
@@ -721,188 +903,6 @@
     "images": [
       "..\\assets\\images\\nylon31.jpg",
       "..\\assets\\images\\nylon32.jpg"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": [
-      [
-        "Mô tả ngắn"
-      ],
-      [
-        "Mô tả chi tiết sản phẩm"
-      ],
-      [
-        "Đặc điểm"
-      ],
-      [
-        "Hướng dẫn sử dụng"
-      ],
-      [
-        "Thông tin khác"
-      ]
-    ],
-    "available": true,
-    "actions": {
-      "addToCart": true,
-      "addToWishlist": true
-    }
-  },
-  {
-    "id": "18",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
-    "collection": "product",
-    "tags": [
-      "best seller"
-    ],
-    "images": [
-      "..\\assets\\images\\product11.png",
-      "..\\assets\\images\\product15.png",
-      "..\\assets\\images\\product16.png"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": [
-      [
-        "Mô tả ngắn"
-      ],
-      [
-        "Mô tả chi tiết sản phẩm"
-      ],
-      [
-        "Đặc điểm"
-      ],
-      [
-        "Hướng dẫn sử dụng"
-      ],
-      [
-        "Thông tin khác"
-      ]
-    ],
-    "available": true,
-    "actions": {
-      "addToCart": true,
-      "addToWishlist": true
-    }
-  },
-  {
-    "id": "19",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
-    "collection": "product",
-    "tags": [
-      "best seller"
-    ],
-    "images": [
-      "..\\assets\\images\\product21.jpg",
-      "..\\assets\\images\\product22.jpg",
-      "..\\assets\\images\\product23.jpg",
-      "..\\assets\\images\\product24.jpg",
-      "..\\assets\\images\\product25.jpg"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": [
-      [
-        "Mô tả ngắn"
-      ],
-      [
-        "Mô tả chi tiết sản phẩm"
-      ],
-      [
-        "Đặc điểm"
-      ],
-      [
-        "Hướng dẫn sử dụng"
-      ],
-      [
-        "Thông tin khác"
-      ]
-    ],
-    "available": true,
-    "actions": {
-      "addToCart": true,
-      "addToWishlist": true
-    }
-  },
-  {
-    "id": "20",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
-    "collection": "product",
-    "tags": [
-      "best seller"
-    ],
-    "images": [
-      "..\\assets\\images\\product31.jpg",
-      "..\\assets\\images\\product32.jpg",
-      "..\\assets\\images\\product33.jpg",
-      "..\\assets\\images\\product34.jpg"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": [
-      [
-        "Mô tả ngắn"
-      ],
-      [
-        "Mô tả chi tiết sản phẩm"
-      ],
-      [
-        "Đặc điểm"
-      ],
-      [
-        "Hướng dẫn sử dụng"
-      ],
-      [
-        "Thông tin khác"
-      ]
-    ],
-    "available": true,
-    "actions": {
-      "addToCart": true,
-      "addToWishlist": true
-    }
-  },
-  {
-    "id": "21",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
-    "collection": "product",
-    "tags": [
-      "best seller"
-    ],
-    "images": [
-      "..\\assets\\images\\product41.jpg",
-      "..\\assets\\images\\product42.jpg",
-      "..\\assets\\images\\product43.jpg",
-      "..\\assets\\images\\product44.jpg",
-      "..\\assets\\images\\product45.jpg",
-      "..\\assets\\images\\product46.jpg"
     ],
     "sizes": [
       "S",
