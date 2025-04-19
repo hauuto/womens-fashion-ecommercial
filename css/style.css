@@ -597,3 +597,11 @@ footer{
 .nav-link:hover{
     color: #ba4730 !important;
 }
+
+#btnFilter{
+    top: 220px;
+    left: 30px;
+}
+
+/* Add animation for the filter panel */
+

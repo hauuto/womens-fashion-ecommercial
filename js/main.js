@@ -106,10 +106,12 @@ document.addEventListener('DOMContentLoaded', () => {
         item.addEventListener('click', (event) => {
             event.preventDefault(); // Prevent default link behavior
             const filter = item.textContent.trim().toLowerCase(); // Get the filter name
-            window.location.href = `../html/product-list.html?filter=${filter}`; // Redirect with filter
+            window.location.href = `../html/collection.html`; // Redirect with filter
         });
     });
 });
+
+
 
 
 

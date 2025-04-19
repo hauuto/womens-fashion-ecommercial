@@ -13,6 +13,8 @@ async function fetchProducts(filterFn = null) {
         // Apply filter if provided
         products = filterFn ? allProducts.filter(filterFn) : allProducts;
 
+
+
         // Reset current index and render products
         currentIndex = 0;
         renderProducts();
@@ -93,4 +95,25 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         fetchProducts(); // Render all products if no filter
     }
+});
+
+
+document.getElementById('applyFilters').addEventListener('click', () => {
+    const priceRange = document.getElementById('priceRange').value;
+    const collection = document.getElementById('collectionFilter').value;
+    const tags = document.getElementById('tagsFilter').value.toLowerCase().split(',').map(tag => tag.trim());
+
+    fetchProducts((product) => {
+        const matchesPrice = product.price <= priceRange;
+        const matchesCollection = collection ? product.collection === collection : true;
+        const matchesTags = tags.length > 0 ? tags.every(tag => product.tags.includes(tag)) : true;
+
+        return matchesPrice && matchesCollection && matchesTags;
+    });
+});
+
+// Update price range display
+document.getElementById('priceRange').addEventListener('input', (e) => {
+    document.getElementById('minPrice').textContent = '0';
+    document.getElementById('maxPrice').textContent = e.target.value;
 });
