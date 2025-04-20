@@ -36,7 +36,17 @@ async function renderProductDetail(jsonPath = '../data/products.json') {
 
         // Cập nhật mô tả sản phẩm
         const descriptionList = document.querySelector('.product-description');
-        descriptionList.innerHTML = product.description.map(desc => `<li>${desc}</li>`).join('<br>');
+        descriptionList.innerHTML = product.description
+            .map((desc, index) => {
+                if (index === 0) return ''; // Skip the first array
+                if (index === 2) {
+                    // Add "-" before each item in the second array
+                    return desc.map(item => `<li>- ${item}</li>`).join('');
+                }
+                // Render other arrays as normal lists
+                return desc.map(item => `<li>${item}</li>`).join('');
+            })
+            .join('<br>');
 
         // Cập nhật kích thước
         const sizeSelector = document.querySelector('.size-selector .sizes');

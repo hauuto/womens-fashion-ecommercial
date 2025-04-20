@@ -49,7 +49,7 @@ function renderProductSection(containerId, paginationId, filterFn = (products) =
               <div class="card-body">
                 <h6 class="fw-bold">${p.title}</h6>
                 <p class="text-muted small">${p.description[0]}</p>
-                <p>${p.price}</p>
+                <p>${p.price}${p.currency}</p>
               </div>
             </div>`;
             // Thêm sự kiện click để điều hướng theo URL từ JSON

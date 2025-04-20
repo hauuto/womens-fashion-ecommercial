@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const imagesDir = '../assets/images';
-const outputFile = '../data/products.json';
+const outputFile = '../data/product_gen.json';
 
 function parseImageFilename(filename) {
     const match = filename.match(/^([a-zA-ZÀ-ỹ0-9]+)(\d{2})\.(jpg|png)$/i);

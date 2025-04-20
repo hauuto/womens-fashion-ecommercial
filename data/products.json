@@ -2,12 +2,12 @@
   {
     "id": "20",
     "title": "Áo thun cotton",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "price": "599.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "product",
     "tags": [
-      "best seller"
+      "best seller", "Áo thun", "Thun", "Cotton"
     ],
     "images": [
       "..\\assets\\images\\product11.png",
@@ -15,6 +15,7 @@
       "..\\assets\\images\\product16.png"
     ],
     "sizes": [
+      "XS",
       "S",
       "M",
       "L",
@@ -48,13 +49,13 @@
   },
   {
     "id": "21",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Quần kaki ống rộng",
+    "price": "699.000",
+    "currency": "đ",
+    "category": "Quần",
     "collection": "product",
     "tags": [
-      "best seller"
+      "best seller", "Quần kaki", "Kaki", "Quần ống rộng"
     ],
     "images": [
       "..\\assets\\images\\product21.jpg",
@@ -64,26 +65,28 @@
       "..\\assets\\images\\product25.jpg"
     ],
     "sizes": [
+      "XS",
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
+        "Thoải mái"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Quần dài chấm đất và rất rộng, không hạn chế chuyển động. Được làm từ vải cotton kaki dày."
       ],
       [
-        "Đặc điểm"
+        "Cạp trễ","Cạp chun","Hai túi bên","Túi vá phía sau"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Nên đặt size nhỏ hơn size bạn thường mặc."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: kaki",
+        "Thành phần: 100% cotton",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -94,13 +97,13 @@
   },
   {
     "id": "22",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo khoác denim phủ nhung",
+    "price": "1.199.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "product",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác", "Denim", "Áo khoác denim"
     ],
     "images": [
       "..\\assets\\images\\product31.jpg",
@@ -111,24 +114,31 @@
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
+        "Xa hoa"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Chiếc áo khoác denim siêu bồng bềnh giữ được form dáng hoàn hảo và trông cực kỳ sang trọng nhờ lớp phủ nhung."
       ],
       [
-        "Đặc điểm"
+        "Dáng rộng rãi",
+        "Vai cực bồng bềnh",
+        "Chiều dài maxi",
+        "Tay áo dài kiểu chuối",
+        "Cổ áo Anh",
+        "Nút cài",
+        "Có lót áo"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Size S tương đương với size S của nam, dáng rộng."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đỏ",
+        "Thành phần: 100% cotton",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -139,13 +149,13 @@
   },
   {
     "id": "23",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Quần Graphite Silly Modal",
+    "price": "699.000",
+    "currency": "đ",
+    "category": "Quần",
     "collection": "product",
     "tags": [
-      "best seller"
+      "best seller", "Quần", "Quần ống rộng", "Quần dài"
     ],
     "images": [
       "..\\assets\\images\\product41.jpg",
@@ -163,19 +173,23 @@
     ],
     "description": [
       [
-        "Mô tả ngắn"
+        "Thoải mái"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Quần thể thao ống rộng làm từ chất liệu modal mỏng, mềm mại, bồng bềnh như lụa. Các nút ở mép chân cho phép bạn điều chỉnh độ rộng của chân."
       ],
       [
-        "Đặc điểm"
+        "Kiểu dáng rộng rãi",
+        "Cạp chun",
+        "Túi xẻ tà"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Kết cấu độc đáo cho phép bạn phối quần không chỉ vào ban ngày mà còn có thể mặc vào buổi tối - ví dụ, kết hợp với áo sơ mi cổ điển và giày lười hoặc giày cao gót."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: xám đậm",
+        "Thành phần: 49% polyester, 44% modal, 7% elastane",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -186,13 +200,13 @@
   },
   {
     "id": "1",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Chân váy denim xanh",
+    "price": "999.000",
+    "currency": "đ",
+    "category": "Chân váy",
     "collection": "accessories",
     "tags": [
-      "best seller"
+      "best seller", "Chân váy", "Denim", "Chân váy denim"
     ],
     "images": [
       "..\\assets\\images\\accessories11.jpg",
@@ -201,26 +215,21 @@
       "..\\assets\\images\\accessories14.jpg"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+      "M"
     ],
     "description": [
       [
-        "Mô tả ngắn"
+        "Phù hợp với mọi kiểu phối đồ"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Kiểu dáng xòe bồng bềnh, viền bất đối xứng, đường viền thô và đường xẻ trong suốt là những trang phục thường thấy của các biểu tượng nhạc grunge thập niên 90 như Kurt và Courtney. Bạn có thể sử dụng nó đúng mục đích hoặc mặc như áo. Khóa ở đây là một chiếc thắt lưng, có độ rộng có thể dễ dàng điều chỉnh cho phù hợp với bất kỳ bộ phận nào trên cơ thể."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: xanh dương","Thành phần: 100% cotton","Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -231,39 +240,36 @@
   },
   {
     "id": "2",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Chân váy Sarong bằng vải denim than chì",
+    "price": "999.000",
+    "currency": "đ",
+    "category": "Chân váy",
     "collection": "accessories",
     "tags": [
-      "best seller"
+      "best seller", "Chân váy", "Denim", "Chân váy denim"
     ],
     "images": [
       "..\\assets\\images\\accessories21.jpg",
       "..\\assets\\images\\accessories22.jpg"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+      "M"
     ],
     "description": [
       [
-        "Mô tả ngắn"
+        "Táo bạo"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Chúng tôi đã tái hiện nó bằng chất liệu denim than chì. Phần còn lại vẫn giữ nguyên: phần đáy loe, không đối xứng, các cạnh thô và một chiếc thắt lưng dài có khóa tự động để điều chỉnh độ vừa vặn. Trông đặc biệt đẹp khi kết hợp với quần da cargo."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đen",
+        "Thành phần: 100% cotton",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -274,13 +280,13 @@
   },
   {
     "id": "3",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Chân váy caro",
+    "price": "999.000",
+    "currency": "đ",
+    "category": "Chân váy",
     "collection": "accessories",
     "tags": [
-      "best seller"
+      "best seller", "Chân váy", "Chân váy caro"
     ],
     "images": [
       "..\\assets\\images\\accessories31.jpg",
@@ -289,26 +295,23 @@
       "..\\assets\\images\\accessories34.jpg"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+      "M"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Lấy cảm hứng từ chiếc áo sơ mi yêu thích của Kurt Cobain."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Sản phẩm được làm từ vải nỉ kẻ caro và được cố định bằng dây đeo có thể điều chỉnh và khóa tự động. Bạn có thể mặc nó với hoặc không có quần, như một chiếc áo hoặc như một chiếc áo choàng - có rất nhiều lựa chọn, bạn chỉ cần đánh thức trí tưởng tượng của mình và bật những bản nhạc Nirvana để tạo nên tâm trạng."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đỏ-xanh",
+        "Chất liệu: 50% cotton, 50% polyester",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -319,13 +322,13 @@
   },
   {
     "id": "4",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Chân váy Sarong kẻ caro",
+    "price": "999.000",
+    "currency": "đ",
+    "category": "Chân váy",
     "collection": "accessories",
     "tags": [
-      "best seller"
+      "best seller", "Chân váy", "Chân váy caro"
     ],
     "images": [
       "..\\assets\\images\\accessories41.jpg",
@@ -334,10 +337,7 @@
       "..\\assets\\images\\accessories44.jpg"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+      "M"
     ],
     "description": [
       [
@@ -364,13 +364,13 @@
   },
   {
     "id": "5",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Quần Jeans Ống Tối Tái Chế",
+    "price": "799.000",
+    "currency": "đ",
+    "category": "Quần",
     "collection": "denim",
     "tags": [
-      "best seller"
+      "best seller", "Quần jeans", "Quần ống rộng"
     ],
     "images": [
       "..\\assets\\images\\denim10.jpg",
@@ -382,26 +382,24 @@
       "..\\assets\\images\\denim16.jpg"
     ],
     "sizes": [
+      "XS",
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Chiếc quần jeans được nhiều người yêu thích hiện đã có thêm tông màu than chì mới, khiến chúng càng giống với Antwerp Six hơn. Mặt trước được cắt như thể chiếc quần jeans được may từ hai chiếc quần, với một chiếc được đặt chồng lên chiếc kia theo đường chéo."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: Đen",
+        "Thành phần: 100% cotton"
       ]
     ],
     "available": true,
@@ -412,13 +410,13 @@
   },
   {
     "id": "6",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo hoodie có khóa kéo bằng vải denim",
+    "price": "1.000.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "denim",
     "tags": [
-      "best seller"
+      "best seller", "Áo hoodie", "Denim", "Áo khoác"
     ],
     "images": [
       "..\\assets\\images\\denim20.jpg",
@@ -429,24 +427,22 @@
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Áo hoodie có khóa kéo đã quay trở lại từ những năm 2000 và chúng tôi rất vui mừng về điều đó. Mọi người từ Kendrick Lamar đến Kate Middleton đều mặc chúng."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Chúng tôi đã tạo ra phiên bản của riêng mình bằng cách trộn vải nỉ xám rất mềm với lớp vải denim bên trong. Tay áo được bổ sung thêm dây rút đặc biệt để điều chỉnh độ dài và độ to của tay áo. Nó thực sự thoải mái và ấn tượng - đúng như bạn thích.\n"
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: xám xanh",
+        "Thành phần: 100% cotton"
       ]
     ],
     "available": true,
@@ -457,13 +453,13 @@
   },
   {
     "id": "7",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Denim-collage",
+    "price": "1.499.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "denim",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác", "Denim", "Áo khoác denim"
     ],
     "images": [
       "..\\assets\\images\\denim30.jpg",
@@ -478,19 +474,20 @@
     ],
     "description": [
       [
-        "Mô tả ngắn"
+        "Lấy cảm hứng từ chủ nghĩa hiện đại và tiên phong, dành cho những cuộc phiêu lưu."
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Đằng sau mọi thử nghiệm với vải denim của chúng tôi đều ẩn chứa nghệ thuật. Khi thiết kế một chiếc áo khoác để kết hợp với quần jeans cắt dán, chúng tôi một lần nữa nhớ đến Picasso và Malevich - những chi tiết được cắt may khéo léo của chiếc áo khoác gợi nhớ đến trường phái lập thể và chủ nghĩa tối thượng. Màu tương phản là hai mặt của cùng một loại vải: mặt trước tối và mặt sau sáng. Mặc nhẹ sẽ mang lại cho sản phẩm vẻ cổ điển."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Để có được sự vừa vặn cổ điển với dáng người phụ nữ, chúng tôi khuyên bạn nên chọn trang phục nhỏ hơn bình thường một cỡ. Sản phẩm có kích thước vừa vặn, phù hợp với nhu cầu sử dụng."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: xám xanh",
+        "Thành phần: 100% cotton",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -501,13 +498,13 @@
   },
   {
     "id": "8",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo sơ mi denim tay ngắn",
+    "price": "499.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "denim",
     "tags": [
-      "best seller"
+      "best seller", "Áo sơ mi", "Denim", "Áo sơ mi denim"
     ],
     "images": [
       "..\\assets\\images\\denim40.jpg",
@@ -516,24 +513,23 @@
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Chiếc áo sơ mi rộng thùng thình với tay ngắn là trang phục đường phố cổ điển. Sản phẩm của chúng tôi được làm từ vải denim cotton dày có khả năng giữ dáng hoàn hảo. Amy Winehouse rất thích những đôi giày này - cô mặc chúng với quần jean bó, và những đôi giày rộng nhất cô mặc như một chiếc váy, kết hợp với kiểu tóc tổ ong nổi tiếng trên đầu, bốt thô, giày thể thao hoặc giày ba lê. Đây chính xác là những gì bạn cần ở thành phố vào mùa hè."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Để có được sự vừa vặn cổ điển với dáng người phụ nữ, chúng tôi khuyên bạn nên chọn trang phục nhỏ hơn bình thường một cỡ. Sản phẩm có kích thước vừa vặn, phù hợp với nhu cầu sử dụng."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đen",
+        "Thành phần: 100% cotton",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -544,13 +540,13 @@
   },
   {
     "id": "9",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo khoác denim",
+    "price": "1.199.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "jacket",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác", "Denim", "Áo khoác denim"
     ],
     "images": [
       "..\\assets\\images\\jacket11.jpg",
@@ -558,26 +554,27 @@
       "..\\assets\\images\\jacket13.jpg"
     ],
     "sizes": [
+      "XS",
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
+        "Một chiếc áo khoác giống hệt trong tủ đồ của Lenny Kravitz - bạn cũng cần một chiếc"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Chúng tôi lần đầu tiên bước vào lãnh địa của những món đồ cổ điển - chúng tôi đã thêm một chiếc áo khoác vào bộ sưu tập, nhưng không phải từ vải vest mà từ vải denim có hiệu ứng xuống cấp mịn màng. Nhà thiết kế Mahmut Ağac của chúng tôi có nhiều kinh nghiệm trong việc tạo ra những kiệt tác thời trang cao cấp, và ông đã áp dụng chúng một cách rất vui vẻ. Mặc nó với áo phông trắng, áo ba lỗ, áo crop top hoặc chỉ để ngực trần như Lenny Kravitz."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Để có được sự vừa vặn cổ điển với dáng người phụ nữ, chúng tôi khuyên bạn nên chọn trang phục nhỏ hơn bình thường một cỡ. Sản phẩm có kích thước vừa vặn, phù hợp với nhu cầu sử dụng."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: xanh và trắng",
+        "Thành phần: 100% cotton",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -588,13 +585,13 @@
   },
   {
     "id": "10",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Quần Biker da Nappa",
+    "price": "1.199.000",
+    "currency": "đ",
+    "category": "Quần",
     "collection": "leather",
     "tags": [
-      "best seller"
+      "best seller", "Quần biker", "Da nappa", "Quần da"
     ],
     "images": [
       "..\\assets\\images\\leather11.jpg",
@@ -610,19 +607,23 @@
     ],
     "description": [
       [
-        "Mô tả ngắn"
+        "Quần dài lấy cảm hứng từ phong cách xe máy."
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Với chiếc quần dài này, bạn có thể đạp xe đường dài hoặc tham gia hàng ngàn bữa tiệc - da Nappa chính hãng sẵn sàng cho mọi cuộc phiêu lưu."
       ],
       [
-        "Đặc điểm"
+        "Kiểu dáng thẳng với đường may chéo",
+        "Năm túi",
+        "Đường xẻ thắt lưng có đinh tán"
       ],
       [
-        "Hướng dẫn sử dụng"
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đen",
+        "Chất liệu: Da",
+        "Thành phần: 100% da",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -633,19 +634,20 @@
   },
   {
     "id": "11",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo khoác da Nappa dành cho dân biker",
+    "price": "1.399.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "leather",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác biker", "Da nappa", "Áo khoác da"
     ],
     "images": [
       "..\\assets\\images\\leather21.jpg",
       "..\\assets\\images\\leather23.jpg"
     ],
     "sizes": [
+      "XS",
       "S",
       "M",
       "L",
@@ -653,19 +655,25 @@
     ],
     "description": [
       [
-        "Mô tả ngắn"
+        "Chiếc áo khoác da hoàn hảo, giống như của Bono và Dave Gahan. Chúng tôi đã chọn da Nappa mịn, mềm như bơ."
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Chúng tôi đã bổ sung cho chiếc áo khoác này một chiếc mũ trùm đầu có thể tháo rời làm bằng vải modal mềm mại. Kết quả là một sản phẩm dành cho những ngôi sao nhạc rock thực thụ muốn ẩn danh."
       ],
       [
-        "Đặc điểm"
+        "Kiểu dáng xe máy cổ điển",
+        "Điểm nhấn ở vai",
+        "Khóa kéo ngang ngực như một chiếc áo khoác biker thực thụ",
+        "Thắt lưng dọc theo mép dưới"
       ],
       [
         "Hướng dẫn sử dụng"
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đen",
+        "Chất liệu: Da",
+        "Thành phần: vỏ - 100% da nappa, lớp lót - 100% acetate",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -676,13 +684,13 @@
   },
   {
     "id": "12",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo khoác dài chấm đất làm bằng da Nappa",
+    "price": "2.999.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "leather",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác dài", "Da nappa", "Áo khoác da"
     ],
     "images": [
       "..\\assets\\images\\leather31.jpg",
@@ -692,24 +700,27 @@
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Tất cả những ai thấy áo khoác màu be trông phản cảm vào mùa thu (có quá nhiều áo khoác màu be trên phố), hãy chú ý đến chiếc áo khoác da của chúng tôi. Kiểu dáng thẳng, màu đen, vai nhấn và chiều dài gần chạm đất là sự kết hợp hoàn hảo giữa các yếu tố truyền thống và táo bạo. Chiếc áo khoác được làm từ da Nappa mềm mại và bền bỉ, có thể sử dụng mãi mãi, vì vậy bạn có thể truyền lại cho thế hệ tiếp theo. May mắn thay, những thứ như vậy không bao giờ lỗi mốt."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Để có được sự vừa vặn cổ điển với dáng người phụ nữ, chúng tôi khuyên bạn nên chọn trang phục nhỏ hơn bình thường một cỡ. Sản phẩm có kích thước vừa vặn, phù hợp với nhu cầu sử dụng."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đen",
+        "Thành phần: 100% da nappa",
+        "Lớp lót: 100% acetate",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
+
+
+
       ]
     ],
     "available": true,
@@ -720,13 +731,13 @@
   },
   {
     "id": "13",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo khoác bomber da Nappa có họa tiết xếp li",
+    "price": "1.199.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "leather",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác bomber", "Da nappa", "Áo khoác da"
     ],
     "images": [
       "..\\assets\\images\\leather41.jpg",
@@ -735,24 +746,25 @@
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Chiếc áo khoác bomber này mềm mại như một chiếc bánh sừng bò mới nướng và được chế tác từ loại da Nappa đặc trưng của chúng tôi - mịn màng hoàn hảo, mềm mại khi chạm vào và cực kỳ bền. Những nếp gấp ở mặt sau và tay áo tạo cho chiếc áo khoác độ phồng rất hấp dẫn, trong khi màu đen than cùng họa tiết hình học trên ngực khiến nó giống như phong cách cyberpunk. Nhân vật K của Ryan Gosling trong Blade Runner 2049, hay tên tài xế tàn bạo trong Drive đều có thể mặc chiếc áo khoác phi công như thế này, và bạn cũng vậy."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Để có được sự vừa vặn cổ điển với dáng người phụ nữ, chúng tôi khuyên bạn nên chọn trang phục nhỏ hơn bình thường một cỡ. Sản phẩm có kích thước vừa vặn, phù hợp với nhu cầu sử dụng."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đen",
+        "Thành phần: 100% da nappa",
+        "Lớp lót: 100% acetate",
+        "Ruột: 100% polyester",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -763,13 +775,13 @@
   },
   {
     "id": "14",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Quần Cargo da Nappa",
+    "price": "1.499.000",
+    "currency": "đ",
+    "category": "Quần",
     "collection": "leather",
     "tags": [
-      "best seller"
+      "best seller", "Quần cargo", "Da nappa", "Quần da"
     ],
     "images": [
       "..\\assets\\images\\leather51.jpg",
@@ -781,24 +793,24 @@
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Chiếc quần cargo này được làm từ da Nappa mềm mại nhưng bền bỉ, có thể sử dụng trong nhiều thập kỷ—thật tuyệt khi kiểu dáng này không bao giờ lỗi mốt. Đặc điểm chính của chúng là các đường may tương phản, có tác dụng nhấn mạnh cấu trúc của sản phẩm. Và ưu điểm chính là túi rộng rãi, bạn có thể đựng nhiều vật dụng nhỏ. Dành cho những người yêu thích hình bóng kiến \u200B\u200Btrúc, phong cách grunge nhẹ nhàng và rảnh tay."
       ],
       [
         "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Để có được sự vừa vặn cổ điển với dáng người phụ nữ, chúng tôi khuyên bạn nên chọn trang phục nhỏ hơn bình thường một cỡ. Sản phẩm có kích thước vừa vặn, phù hợp với nhu cầu sử dụng."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đen",
+        "Thành phần: 100% da nappa",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -809,13 +821,13 @@
   },
   {
     "id": "15",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo khoác sơ mi da Nappa",
+    "price": "999.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "leather",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác sơ mi", "Da nappa", "Áo khoác da"
     ],
     "images": [
       "..\\assets\\images\\leather61.jpg",
@@ -825,67 +837,24 @@
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Chiếc áo khoác sơ mi này được làm từ da Nappa dày, nếu được chăm sóc đúng cách, có thể sử dụng được trong nhiều năm. Kiểu dáng đơn giản đủ để thay thế chiếc áo khoác da mà Julia Roberts mặc trong Notting Hill. Đường may trang trí trên tay áo mô phỏng các nếp gấp và làm cho sản phẩm trở nên đẹp mắt hơn. Vẻ đẹp của chủ nghĩa tối giản nằm ở những chi tiết tinh tế như vậy.\n"
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
       ],
       [
-        "Thông tin khác"
-      ]
-    ],
-    "available": true,
-    "actions": {
-      "addToCart": true,
-      "addToWishlist": true
-    }
-  },
-  {
-    "id": "16",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
-    "collection": "nylon",
-    "tags": [
-      "best seller"
-    ],
-    "images": [
-      "..\\assets\\images\\nylon11.jpg",
-      "..\\assets\\images\\nylon12.jpg"
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "description": [
-      [
-        "Mô tả ngắn"
-      ],
-      [
-        "Mô tả chi tiết sản phẩm"
-      ],
-      [
-        "Đặc điểm"
-      ],
-      [
-        "Hướng dẫn sử dụng"
-      ],
-      [
-        "Thông tin khác"
+        "Màu sắc: đen",
+        "Chất liệu: Da",
+        "Thành phần: 100% da nappa",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
+
       ]
     ],
     "available": true,
@@ -896,39 +865,42 @@
   },
   {
     "id": "17",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo khoác bomber bằng nylon có họa tiết xếp nếp",
+    "price": "1.599.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "nylon",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác bomber", "Nylon", "Áo khoác"
     ],
     "images": [
-      "..\\assets\\images\\nylon21.jpg",
-      "..\\assets\\images\\nylon22.jpg"
+      "..\\assets\\images\\nylon11.jpg",
+      "..\\assets\\images\\nylon12.jpg"
     ],
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Hóa ra, khi bạn kết hợp phong cách thời trang đường phố cá tính với sự thanh lịch truyền thống, bạn sẽ có được một sản phẩm vừa đẹp vừa tiện dụng - áo khoác bomber của chúng tôi. Khối lượng phóng đại, các nếp gấp đặc biệt trên tay áo và một chiếc khóa kéo dày được gói gọn trong hình bóng của chiếc áo khoác cổ điển trong tủ đồ của Kendall Roy, cùng với nhiều đặc điểm khác, nó giữ được phom dáng, điều mà không phải món đồ bằng nylon nào cũng làm được. Nghe có vẻ lạ nhưng trông rất thú vị và phù hợp với nhiều tình huống khác nhau."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
       ],
       [
-        "Thông tin khác"
+
+
+        "Màu sắc: đen",
+        "Thành phần: 100% nylon",
+        "Lớp lót: 100% acetate",
+        "Ruột: 100% polyester",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
+
       ]
     ],
     "available": true,
@@ -939,13 +911,61 @@
   },
   {
     "id": "18",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo khoác bomber bằng nylon có họa tiết xếp li",
+    "price": "1.299.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "nylon",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác bomber", "Nylon", "Áo khoác"
+    ],
+    "images": [
+      "..\\assets\\images\\nylon21.jpg",
+      "..\\assets\\images\\nylon22.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "description": [
+      [
+      ],
+      [
+        "Chiếc áo khoác bomber này mềm mại như một chiếc bánh và chắc chắn sẽ trở thành chiếc áo yêu thích của bạn. Được làm bằng vải nylon dày, không sợ mưa hay bùn lầy. Kiểu dáng khá cổ điển, nhưng nhờ vào các chi tiết chèn có kết cấu, trông nó biểu cảm hơn. Nó phù hợp với mọi dáng người và có thể kết hợp với mọi thứ, vì vậy bạn có thể chia sẻ áo khoác phi công với người yêu và thay phiên nhau mặc, giống như những người lãng mạn thực sự."
+      ],
+      [
+      ],
+      [
+        "Để có được sự vừa vặn cổ điển với dáng người phụ nữ, chúng tôi khuyên bạn nên chọn trang phục nhỏ hơn bình thường một cỡ. Sản phẩm có kích thước vừa vặn, phù hợp với nhu cầu sử dụng."
+      ],
+      [
+
+
+        "Màu sắc: đen",
+        "Thành phần: 100% nylon",
+        "Lớp lót: 100% acetate",
+        "Ruột: 100% polyester",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
+
+
+      ]
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "16",
+    "title": "Áo khoác Bomber Nylon",
+    "price": "1.199.000",
+    "currency": "đ",
+    "category": "Áo",
+    "collection": "nylon",
+    "tags": [
+      "best seller", "Áo khoác bomber", "Nylon", "Áo khoác"
     ],
     "images": [
       "..\\assets\\images\\nylon31.jpg",
@@ -959,19 +979,18 @@
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        " Chúng ta hoài niệm về những chiếc áo gió thể thao có khóa kéo của những năm 90. Phiên bản của chúng tôi được làm từ vải nylon đen tuyền, có cảm giác như lụa và có độ bóng đẹp. Với cổ áo cao, tay áo rộng và chun bền ở viền và cổ tay, chiếc áo khoác bomber này hấp dẫn từ mọi góc nhìn. Chúng ta có thể tưởng tượng ra hình ảnh ca sĩ chính của nhóm a-ha, Michael Hutchence hay James Bond - một chiếc áo khoác, áo phông trắng, quần jean, xe máy và nhiều cuộc phiêu lưu phía trước."
       ],
       [
-        "Đặc điểm"
       ],
       [
-        "Hướng dẫn sử dụng"
       ],
       [
-        "Thông tin khác"
+
+        "Màu sắc: đen",
+        "Thành phần: 100% polyester"
       ]
     ],
     "available": true,
@@ -982,10 +1001,10 @@
   },
   {
     "id": "19",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Quần dài bằng nylon",
+    "price": "1.199.000",
+    "currency": "đ",
+    "category": "Quần",
     "collection": "pants",
     "tags": [
       "best seller"
@@ -1217,13 +1236,13 @@
   },
   {
     "id": "28",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Quần ống loe bằng da Nappa",
+    "price": "1.899.000",
+    "currency": "đ",
+    "category": "Quần",
     "collection": "queen",
     "tags": [
-      "best seller"
+      "best seller", "Quần ống loe", "Da nappa", "Quần da"
     ],
     "images": [
       "..\\assets\\images\\queen11.jpg",
@@ -1235,26 +1254,34 @@
       "..\\assets\\images\\queen17.jpg"
     ],
     "sizes": [
+      "XS",
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Chắc chắn bạn chưa bao giờ sở hữu chiếc quần như thế này. Chúng được làm từ những miếng da chéo, ôm vừa vặn ở phía trên và xòe ra một cách ấn tượng từ đầu gối. Bạn có thể tăng thêm sự ấn tượng bằng cách mở khóa kéo trang trí."
       ],
       [
-        "Đặc điểm"
+
+
+        "Cạp vừa",
+        "Đai thắt lưng có nút",
+        "Năm túi",
+        "Lớp lót mềm"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Da khá dày nhưng mềm mại và đàn hồi. Chỉ dành cho nhân vật chính và lối thoát đặc biệt."
       ],
       [
-        "Thông tin khác"
+
+
+        "Màu sắc: đen",
+        "Thành phần: 100% da",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -1265,13 +1292,13 @@
   },
   {
     "id": "29",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo khoác denim thô có lỗ xỏ dây",
+    "price": "1.199.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "queen",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác denim", "Áo khoác"
     ],
     "images": [
       "..\\assets\\images\\queen21.jpg",
@@ -1283,24 +1310,29 @@
     "sizes": [
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Một chiếc áo khoác rộng thùng thình, như thể nó được may từ vai của một người đàn ông. Chúng tôi đã chọn loại vải denim thô đặc biệt - dày, chưa qua xử lý, giữ nguyên tông màu xanh đậm quý phái. Và họ rải rác những lỗ kim loại khắp nơi, gợi nhớ đến phong cách punk và retrofuturism."
       ],
       [
-        "Đặc điểm"
+
+        "Kiểu dáng rộng rãi",
+        "Bốn túi - túi vá ở ngực và túi trong ở hai bên",
+        "Tay áo dài",
+        "Phụ kiện có thương hiệu"
+
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Sản phẩm thoải mái và đa năng nhất trong bộ sưu tập - sẽ làm đa dạng hóa trang phục ban ngày điềm tĩnh và tăng thêm nét nổi loạn cho trang phục buổi tối."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: xanh đậm",
+        "Thành phần: 100% cotton",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -1311,13 +1343,13 @@
   },
   {
     "id": "30",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Quần jeans thô có lỗ xỏ dây",
+    "price": "1.399.000",
+    "currency": "đ",
+    "category": "Quần",
     "collection": "queen",
     "tags": [
-      "best seller"
+      "best seller", "Quần jeans", "Quần denim"
     ],
     "images": [
       "..\\assets\\images\\queen31.jpg",
@@ -1327,26 +1359,30 @@
       "..\\assets\\images\\queen35.jpg"
     ],
     "sizes": [
+      "XS",
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Nếu có thứ gì đó gọi là quần jeans mặc buổi tối thì đây chính là nó. Được làm từ vải denim thô dày không có bất kỳ đường hoàn thiện nào và rải rác những lỗ kim loại lớn - càng thấp, càng nhiều đinh tán."
       ],
       [
-        "Đặc điểm"
+        "Cạp cao",
+        "Xòe từ đầu gối",
+        "5 túi",
+        "Viền quần chưa hoàn thiện"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Chúng tôi khuyên bạn nên mặc với đồ lót màu da vì lỗ xỏ dây quần trong suốt. Bạn có thể thêm một chiếc áo len hoặc kết hợp một bộ đồ với một chiếc quần jeans Raw."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: xanh đậm",
+        "Thành phần: 100% cotton",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -1357,13 +1393,13 @@
   },
   {
     "id": "31",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo corset da Nappa ",
+    "price": "1.199.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "queen",
     "tags": [
-      "best seller"
+      "best seller", "Áo corset", "Da nappa", "Áo corset da"
     ],
     "images": [
       "..\\assets\\images\\queen41.jpg",
@@ -1375,26 +1411,31 @@
       "..\\assets\\images\\queen47.jpg"
     ],
     "sizes": [
+      "XS",
       "S",
-      "M",
-      "L",
-      "XL"
+      "M"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Áo corset bó bằng da mịn. Chúng tôi đã loại bỏ xương để bạn cảm thấy thoải mái hơn - chỉ có các xương dọc được đệm, nhưng bạn hầu như không cảm thấy chúng. Hình dạng được duy trì nhờ vào mật độ của vật liệu.\n"
       ],
       [
-        "Đặc điểm"
+
+        "Kiểu dáng ngắn",
+        "Cúp ngực vừa",
+        "Khóa kéo phía sau"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Thích hợp để mặc nhiều lớp bên ngoài áo dài tay và áo sơ mi. Nhưng bạn cũng có thể mặc nó như một chiếc áo nếu muốn"
       ],
       [
-        "Thông tin khác"
+
+        "Màu sắc: đen",
+        "Thành phần: 100% da",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
+
       ]
     ],
     "available": true,
@@ -1405,13 +1446,13 @@
   },
   {
     "id": "32",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Áo khoác thô có lỗ xỏ dây",
+    "price": "1.499.000",
+    "currency": "đ",
+    "category": "Áo",
     "collection": "queen",
     "tags": [
-      "best seller"
+      "best seller", "Áo khoác thô", "Áo khoác"
     ],
     "images": [
       "..\\assets\\images\\queen51.jpg",
@@ -1424,26 +1465,32 @@
       "..\\assets\\images\\queen58.jpg"
     ],
     "sizes": [
+      "XS",
       "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Áo khoác denim mỏng làm từ vải denim thô - một loại vải dày, chưa qua xử lý, vẫn giữ được màu xanh đậm. Kiểu dáng có khóa kéo gợi nhớ đến áo khoác mô tô, trong khi lỗ xỏ dây lớn gợi nhớ đến phong cách retrofuturism của thập niên 1960.\n"
       ],
       [
-        "Đặc điểm"
+
+        "Ôm sát",
+        "Túi bên hông",
+        "Vai nhấn",
+        "Cổ đứng",
+        "Tay dài có bèo nhún có thể giấu đi bằng cách kéo khóa kéo. Mặc không cài"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Cúc để có tay dài mỏng vào ban ngày và cài cúc hoàn toàn để có chiếc áo theo phong cách avant-garde vào buổi tối. Bạn có thể hoàn thiện bộ trang phục bằng cách thêm quần jeans có lỗ xỏ dây."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: xanh đậm",
+        "Thành phần: 100% cotton",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -1454,13 +1501,13 @@
   },
   {
     "id": "33",
-    "title": "Tên sản phẩm mẫu",
-    "price": "10000",
-    "currency": "VND",
-    "category": "Danh mục mẫu",
+    "title": "Váy nàng tiên cá",
+    "price": "1.599.000",
+    "currency": "đ",
+    "category": "Váy",
     "collection": "queen",
     "tags": [
-      "best seller"
+      "best seller", "Váy nàng tiên cá", "Váy da"
     ],
     "images": [
       "..\\assets\\images\\queen61.jpg",
@@ -1473,25 +1520,30 @@
     ],
     "sizes": [
       "S",
-      "M",
-      "L",
-      "XL"
+      "M"
+
     ],
     "description": [
       [
-        "Mô tả ngắn"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Váy nàng tiên cá Gothic - quyến rũ nhưng đồng thời cũng rất thoải mái. Được làm từ chất liệu mềm mại, đàn hồi, ôm sát cơ thể một cách nhẹ nhàng. Những nếp gấp dọc theo chiều dài làm nổi bật những đường cong, và phần đuôi váy tăng thêm nét ấn tượng cho diện mạo."
       ],
       [
-        "Đặc điểm"
+
+        "Kiểu dáng ôm sát",
+        "Tay dài",
+        "Cổ chữ V",
+        "Chất liệu mỏng và hơi xuyên thấu nên chúng tôi khuyên bạn nên mặc đồ lót liền mạch",
+        "Khóa kéo ẩn ở phía sau"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Chiếc váy này tạo nên ấn tượng mà không làm mất sự chú ý của mọi người."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đen",
+        "Thành phần: 55% polyamide 45% lycra",
+        "Xuất xứ: Nga"
       ]
     ],
     "available": true,
