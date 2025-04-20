@@ -299,7 +299,7 @@ function updateCartUI() {
             <span>Total:</span>
             <span>${formatPrice(total)} ${cart[0].currency}</span>
         </div>
-        <button class="checkout-btn">ОФОРМИТЬ ЗАКАЗ</button>
+        <button id="checkoutButton" class="checkout-btn">Thanh toán</button>
     `;
 
     console.log('Generated Cart HTML:', cartHTML);
@@ -356,4 +356,10 @@ function updateWishlistUI() {
 
 document.addEventListener('DOMContentLoaded', function () {
     loadHeaderFooter();
+    document.addEventListener('click', function (event) {
+        if (event.target && event.target.id === 'checkoutButton') {
+            window.location.href = '../html/payment.html';
+        }
+    });
 });
+
