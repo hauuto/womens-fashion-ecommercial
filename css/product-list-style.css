@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(../assets/fonts/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+
+body {
+    font-family: Oswald, sans-serif;
+}
+
+.main-layout {
+    display: flex;
+    gap: 20px;
+    padding: 100px;
+}
+
+.sidebar {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 50px;
+}
+
+.product-section {
+    flex-grow: 1;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 80px;
+}
+
+.product-card {
+    border-radius: 0;
+    background: none;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.product-img {
+    width: auto;
+    height: 90%;
+    margin-bottom: 18px;
+}
+
+.category-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.category-list li {
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+.category-list li.selected {
+    font-weight: bold;
+}
+
+.color-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.color-swatch {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #ccc;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.color-swatch.red { background-color: red; }
+.color-swatch.blue { background-color: blue; }
+.color-swatch.green { background-color: green; }
+
+.color-swatch.selected {
+    border-color: #000;
+    outline: 2px solid black;
+}

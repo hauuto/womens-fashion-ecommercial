@@ -1,105 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Product List</title>
-		<link rel="stylesheet" href="../css/style.css">
-		<link rel="stylesheet" href="../css/bootstrap.min.css">
-		<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
-		<style>
-			.offcanvas {
-				transition: transform 0.3s ease-in-out;
-			}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clothing Filter</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/product-list-style.css">
+  <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
+</head>
+<body>
+<div class="container-fluid my-5">
+  <header class="mb-4"></header>
+<div class="main-layout">
+  <aside class="sidebar">
+    <label>Category:</label>
+    <ul id="categoryFilter" class="category-list">
+      <li data-category="">All</li>
+      <li data-category="Shirt">Shirt</li>
+      <li data-category="Pants">Pants</li>
+      <li data-category="Jacket">Jacket</li>
+    </ul>
 
-			.offcanvas.show {
-				transform: translateX(0);
-			}
+    <label>Color:</label>
+    <div id="colorFilter" class="color-options">
+      <div class="color-swatch" data-color=""></div>
+      <div class="color-swatch red" data-color="Red"></div>
+      <div class="color-swatch blue" data-color="Blue"></div>
+      <div class="color-swatch green" data-color="Green"></div>
+    </div>
 
-			.offcanvas:not(.show) {
-				transform: translateX(-100%);
-			}
+    <label>Price Range:</label>
+    <input type="number" id="minPrice" placeholder="Min $" oninput="applyFilter()" />
+    <input type="number" id="maxPrice" placeholder="Max $" oninput="applyFilter()" />
+  </aside>
 
-			#priceRange::-webkit-slider-thumb {
-				background-color: black;
-			}
-			#priceRange::-moz-range-thumb {
-				background-color: black;
-			}
-			#priceRange::-moz-range-track {
-				background-color: black;
-			}
-		</style>
-
-
-
-	</head>
-	<body>
-		<div class="container-fluid">
-			<header class="mb-4"></header>
-
-			<div class="row gap-lg-5">
-
-				<a id="btnFilter" class="btn btn-light shadow position-fixed translate-middle-y rounded-end col-1 px-3 py-2 fs-4 text-dark z-3"
-				   type="button"
-				   data-bs-toggle="offcanvas"
-				   data-bs-target="#filterPanelOffcanvas"
-				   aria-controls="filterPanelOffcanvas">
-					<i class="fa-solid fa-filter"></i>
-				</a>
-
-				<div class="offcanvas offcanvas-start" tabindex="-1" id="filterPanelOffcanvas" aria-labelledby="filterPanelLabel">
-					<div class="offcanvas-header">
-						<h5 class="offcanvas-title" id="filterPanelLabel">Filter Products</h5>
-						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-					</div>
-					<div class="offcanvas-body">
-						<div class="mb-3">
-							<label for="nameFilter" class="form-label">Name</label>
-							<input type="text" class="form-control" id="nameFilter" placeholder="Enter product name">
-						</div>
-						<div class="mb-3">
-							<label for="priceRange" class="form-label">Price Range</label>
-							<input type="range" class="form-range" id="priceRange" min="0" max="100000" step="1000">
-							<div class="d-flex justify-content-between">
-								<span id="minPrice">0</span>
-								<span id="maxPrice">100000</span>
-							</div>
-						</div>
-						<div class="mb-3">
-							<label for="collectionFilter" class="form-label">Collection</label>
-							<input type="text" class="form-control" id="collectionFilter" placeholder="Enter collection name">
-						</div>
-						<div class="mb-3">
-							<label for="tagsFilter" class="form-label">Tags</label>
-							<input type="text" class="form-control" id="tagsFilter" placeholder="Enter tags, separated by commas">
-						</div>
-						<button id="applyFilters" class="btn btn-dark">Apply Filters</button>
-					</div>
-				</div>
-
-				<!-- Main content for product list -->
-					<div class="py-5">
-						<h1 class="mb-4 mt-5 text-center" id="productList">Product List</h1>
-						<div class="d-flex justify-content-center">
-							<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 col col-8" id="productGrid">
-								<!-- Products will be dynamically loaded here -->
-							</div>
-						</div>
-
-						<div class="text-center mt-4">
-							<button id="loadMoreBtn" class="btn btn-dark">Load More</button>
-						</div>
-					</div>
-			</div>
-
-			<footer class="bg-light py-4"></footer>
-		</div>
-
-		<script src="../js/renderProductList.js"></script>
-		<script src="../js/bootstrap.bundle.min.js"></script>
-		<script src="../js/jquery-3.7.1.min.js"></script>
-		<script src="../js/main.js"></script>
-
-	</body>
+  <section class="product-section">
+    <div id="productList" class="product-list"></div>
+  </section>
+</div>
+  <footer class="bg-light py-4"></footer>
+</div>
+</body>
+<script src="../js/jquery-3.7.1.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/renderProductList.js"></script>
 </html>
