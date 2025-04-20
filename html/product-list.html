@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Product List</title>
-		<link rel="stylesheet" href="../css/bootstrap.min.css">
-		<link rel="stylesheet" href="../css/style.css">
-		<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
-	</head>
-	<body>
-		<div class="container-fluid my-5">
-			<header class="mb-4">
-				<!-- Add header content here if needed -->
-			</header>
-			<h1 class="mb-4">Product List</h1>
-			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4" id="productGrid">
-				<!-- Products will be dynamically loaded here -->
-			</div>
-			<div class="text-center mt-4">
-				<button id="loadMoreBtn" class="btn btn-primary">Load More</button>
-			</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clothing Filter</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/product-list-style.css">
+  <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
+</head>
+<body>
+<div class="container-fluid my-5">
+  <header class="mb-4"></header>
+<div class="main-layout">
+  <aside class="sidebar">
+    <label>Category:</label>
+    <ul id="categoryFilter" class="category-list">
+      <li data-category="">All</li>
+      <li data-category="Shirt">Shirt</li>
+      <li data-category="Pants">Pants</li>
+      <li data-category="Jacket">Jacket</li>
+    </ul>
 
+    <label>Color:</label>
+    <div id="colorFilter" class="color-options">
+      <div class="color-swatch" data-color=""></div>
+      <div class="color-swatch red" data-color="Red"></div>
+      <div class="color-swatch blue" data-color="Blue"></div>
+      <div class="color-swatch green" data-color="Green"></div>
+    </div>
 
-			<footer class="bg-light py-4">
+    <label>Price Range:</label>
+    <input type="number" id="minPrice" placeholder="Min $" oninput="applyFilter()" />
+    <input type="number" id="maxPrice" placeholder="Max $" oninput="applyFilter()" />
+  </aside>
 
-			</footer>
-		</div>
-
-		<script src="../js/jquery-3.7.1.min.js"></script>
-		<script src="../js/bootstrap.bundle.min.js"></script>
-		<script src="../js/main.js"></script>
-		<script src="../js/renderProductList.js"></script>
-	</body>
+  <section class="product-section">
+    <div id="productList" class="product-list"></div>
+  </section>
+</div>
+  <footer class="bg-light py-4"></footer>
+</div>
+</body>
+<script src="../js/jquery-3.7.1.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/renderProductList.js"></script>
 </html>

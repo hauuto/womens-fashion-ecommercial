@@ -1,49 +1,76 @@
-let products = [];
-let currentIndex = 0;
-const productsPerPage = 16; // 4 rows x 4 products
+    let products = [];
 
-// Fetch products from JSON file
-async function fetchProducts() {
-    try {
-        const response = await fetch('../data/products.json');
-        products = await response.json();
-        renderProducts();
-    } catch (error) {
-        console.error('Error fetching products:', error);
-    }
+    fetch('../data/products.json')
+    .then(res => res.json())
+    .then(data => {
+    products = data;
+    displayProducts(products);
+});
+
+    function displayProducts(list) {
+    const container = document.getElementById('productList');
+    container.innerHTML = '';
+
+    if (list.length === 0) {
+    container.innerHTML = '<p>No products found.</p>';
+    return;
 }
 
-// Render products dynamically
-function renderProducts() {
-    const productGrid = document.getElementById('productGrid');
-    const endIndex = Math.min(currentIndex + productsPerPage, products.length);
+    list.forEach(product => {
+    const card = document.createElement('div');
+    card.className = 'product-card';
 
-    for (let i = currentIndex; i < endIndex; i++) {
-        const product = products[i];
-        const productCard = `
-      <div class="col">
-        <div class="card h-100">
-          <img src="${product.images[0]}" class="card-img-top" alt="${product.title}">
-          <div class="card-body">
-            <h5 class="card-title">${product.title}</h5>
-            <p class="card-text">${product.price} ${product.currency}</p>
-          </div>
-        </div>
-      </div>
+    const firstImage = product.images && product.images.length > 0
+    ? product.images[0]
+    : 'https://via.placeholder.com/150';
+
+    card.innerHTML = `
+      <img src="${firstImage}" alt="${product.title}" class="product-img">
+      <h4>${product.title}</h4>
+      <p>Price: $${product.price}</p>
     `;
-        productGrid.insertAdjacentHTML('beforeend', productCard);
-    }
-
-    currentIndex = endIndex;
-
-    // Hide "Load More" button if all products are loaded
-    if (currentIndex >= products.length) {
-        document.getElementById('loadMoreBtn').style.display = 'none';
-    }
+    container.appendChild(card);
+});
 }
 
-// Event listener for "Load More" button
-document.getElementById('loadMoreBtn').addEventListener('click', renderProducts);
 
-// Initialize product fetching
-fetchProducts();
+    let selectedCategory = "";
+    let selectedColor = "";
+
+    document.addEventListener("DOMContentLoaded", () => {
+    const categoryItems = document.querySelectorAll("#categoryFilter li");
+    categoryItems.forEach(item => {
+    item.addEventListener("click", () => {
+    categoryItems.forEach(i => i.classList.remove("selected"));
+    item.classList.add("selected");
+    selectedCategory = item.dataset.category;
+    applyFilter();
+});
+});
+
+    const colorItems = document.querySelectorAll(".color-swatch");
+    colorItems.forEach(item => {
+    item.addEventListener("click", () => {
+    colorItems.forEach(i => i.classList.remove("selected"));
+    item.classList.add("selected");
+    selectedColor = item.dataset.color;
+    applyFilter();
+});
+});
+});
+
+
+    function applyFilter() {
+    const min = parseFloat(document.getElementById('minPrice').value);
+    const max = parseFloat(document.getElementById('maxPrice').value);
+
+    const filtered = products.filter(p => {
+    const matchCategory = selectedCategory === "" || p.category === selectedCategory;
+    const matchColor = selectedColor === "" || p.color === selectedColor;
+    const matchMin = isNaN(min) || p.price >= min;
+    const matchMax = isNaN(max) || p.price <= max;
+    return matchCategory && matchColor && matchMin && matchMax;
+});
+
+    displayProducts(filtered);
+}

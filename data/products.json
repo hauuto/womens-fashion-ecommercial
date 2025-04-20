@@ -1,16 +1,17 @@
 [
   {
     "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
+    "title": "Red Shirt",
+    "price": 25,
     "currency": "RUB",
-    "category": "Áo thun",
+    "category": "Shirt",
+    "color": "Red",
     "collection": "Summer 2024",
     "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
     "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+      "../assets/images/redshirt1.jpg",
+      "../assets/images/redshirt2.jpg",
+      "../assets/images/redshirt3.jpg"
     ],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "description": [
@@ -30,17 +31,18 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
+    "id": "2",
+    "title": "Blue Pants",
+    "price": 40,
     "currency": "RUB",
-    "category": "Áo thun",
+    "category": "Pants",
+    "color": "Blue",
     "collection": "Summer 2024",
     "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
     "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+      "../assets/images/bluepants1.jpg",
+      "../assets/images/bluepants2.jpg",
+      "../assets/images/bluepants3.jpg"
     ],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "description": [
@@ -60,17 +62,18 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
+    "id": "3",
+    "title": "Green Jacket",
+    "price": 60,
     "currency": "RUB",
-    "category": "Áo thun",
+    "category": "Jacket",
+    "color": "Green",
     "collection": "Summer 2024",
     "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
     "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+      "../assets/images/greenjacket1.jpg",
+      "../assets/images/greenjacket2.jpg",
+      "../assets/images/greenjacket3.jpg"
     ],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "description": [
@@ -90,17 +93,18 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
+    "id": "4",
+    "title": "Red Pants",
+    "price": 35,
     "currency": "RUB",
-    "category": "Áo thun",
+    "category": "Pants",
+    "color": "Red",
     "collection": "Summer 2024",
     "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
     "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+      "../assets/images/redpants1.jpg",
+      "../assets/images/redpants2.jpg",
+      "../assets/images/redpants3.jpg"
     ],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "description": [
@@ -120,17 +124,18 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
+    "id": "5",
+    "title": "Blue Shirt",
+    "price": 30,
     "currency": "RUB",
-    "category": "Áo thun",
+    "category": "Shirt",
+    "color": "Blue",
     "collection": "Summer 2024",
     "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
     "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+      "../assets/images/blueshirt1.jpg",
+      "../assets/images/blueshirt2.jpg",
+      "../assets/images/blueshirt3.jpg"
     ],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "description": [
@@ -150,17 +155,18 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
+    "id": "6",
+    "title": "Green Shirt",
+    "price": 28,
     "currency": "RUB",
-    "category": "Áo thun",
+    "category": "Shirt",
+    "color": "Green",
     "collection": "Summer 2024",
     "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
     "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+      "../assets/images/greenshirt1.jpg",
+      "../assets/images/greenshirt2.jpg",
+      "../assets/images/greenshirt3.jpg"
     ],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "description": [
@@ -180,17 +186,18 @@
     }
   },
   {
-    "id": "1",
-    "title": "Футболка из хлопка черная",
-    "price": "5990",
+    "id": "7",
+    "title": "Blue Jacket",
+    "price": 65,
     "currency": "RUB",
-    "category": "Áo thun",
+    "category": "Jacket",
+    "color": "Blue",
     "collection": "Summer 2024",
     "tags": ["футболка", "хлопок", "черный", "basic", "unisex", "peach-effect", "летняя одежда", "best seller"],
     "images": [
-      "../assets/images/product11.png",
-      "../assets/images/product15.png",
-      "../assets/images/product16.png"
+      "../assets/images/bluejacket1.jpg",
+      "../assets/images/bluejacket2.jpg",
+      "../assets/images/bluejacket3.jpg"
     ],
     "sizes": ["XS", "S", "M", "L", "XL"],
     "description": [
