@@ -32,7 +32,7 @@ async function renderProductDetail(jsonPath = '../data/products.json') {
         // Cập nhật chi tiết sản phẩm
         document.querySelector('.product-title').textContent = product.title;
         document.querySelector('.price').textContent = `${product.price} ${product.currency}`;
-        document.querySelector('.sku').textContent = `ID: ${product.id}/02`; // Tùy chỉnh SKU nếu cần
+        document.querySelector('.sku').textContent = `ID: ${product.id}/02`;
 
         // Cập nhật mô tả sản phẩm
         const descriptionList = document.querySelector('.product-description');

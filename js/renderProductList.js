@@ -97,23 +97,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-
-document.getElementById('applyFilters').addEventListener('click', () => {
-    const priceRange = document.getElementById('priceRange').value;
-    const collection = document.getElementById('collectionFilter').value;
-    const tags = document.getElementById('tagsFilter').value.toLowerCase().split(',').map(tag => tag.trim());
-
-    fetchProducts((product) => {
-        const matchesPrice = product.price <= priceRange;
-        const matchesCollection = collection ? product.collection === collection : true;
-        const matchesTags = tags.length > 0 ? tags.every(tag => product.tags.includes(tag)) : true;
-
-        return matchesPrice && matchesCollection && matchesTags;
-    });
-});
-
-// Update price range display
-document.getElementById('priceRange').addEventListener('input', (e) => {
-    document.getElementById('minPrice').textContent = '0';
-    document.getElementById('maxPrice').textContent = e.target.value;
-});
