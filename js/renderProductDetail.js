@@ -50,7 +50,7 @@ async function renderProductDetail(jsonPath = '../data/products.json') {
 
         // Cập nhật kích thước
         const sizeSelector = document.querySelector('.size-selector .sizes');
-        sizeSelector.innerHTML = product.sizes.map(size => `<button>${size}</button>`).join('');
+        sizeSelector.innerHTML = product.sizes.map(size => `<button class="btn">${size}</button>`).join('');
 
         // Cập nhật ảnh chính
         const mainImage = document.querySelector('#mainImage');
@@ -132,15 +132,27 @@ function setupSizeSelector() {
     });
 }
 
-// Hàm thiết lập nút hành động (giỏ hàng, wishlist)
 function setupActionButtons(product) {
     const cartButton = document.querySelector('.btn.cart');
     const wishlistButton = document.querySelector('.btn.wishlist');
+    const sizeButtons = document.querySelectorAll('.size-selector .sizes button');
+
+    let selectedSize = null;
+
+    // Cập nhật kích thước được chọn
+    sizeButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            selectedSize = button.textContent;
+        });
+    });
 
     if (product.actions.addToCart) {
         cartButton.addEventListener('click', () => {
-            alert(`${product.title} đã được thêm vào giỏ hàng!`);
-            // Thêm logic giỏ hàng nếu cần
+            if (!selectedSize) {
+                alert('Vui lòng chọn kích cỡ trước khi thêm vào giỏ hàng!');
+                return;
+            }
+            addToCart(product, selectedSize); // Gọi hàm từ cartWishlist.js
         });
     } else {
         cartButton.disabled = true;
@@ -148,8 +160,11 @@ function setupActionButtons(product) {
 
     if (product.actions.addToWishlist) {
         wishlistButton.addEventListener('click', () => {
-            alert(`${product.title} đã được thêm vào danh sách yêu thích!`);
-            // Thêm logic danh sách yêu thích nếu cần
+            if (!selectedSize) {
+                alert('Vui lòng chọn kích cỡ trước khi thêm vào danh sách yêu thích!');
+                return;
+            }
+            addToWishlist(product, selectedSize); // Gọi hàm từ cartWishlist.js
         });
     } else {
         wishlistButton.disabled = true;
