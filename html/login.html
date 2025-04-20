@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Arligent - Đăng nhập</title>
-		<link rel="stylesheet" href="../css/bootstrap.min.css">
-		<link rel="stylesheet" href="../css/style.css">
-		<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
-	</head>
-	<body>
-		<div class="container-fluid">
-			<section id="register" class="my-5 row">
-				<h1 class="text-center mb-4">Log In</h1>
-				<form id="loginForm" class="container col-2 col-8 col-2">
-					<div class="mb-3">
-						<label for="username" class="form-label">Username</label>
-						<input type="text" class="form-control" id="username" placeholder="Enter your username" required>
-					</div>
-					<div class="mb-3">
-						<label for="password" class="form-label">Password</label>
-						<input type="password" class="form-control" id="password" placeholder="Enter your password" required>
-					</div>
-					<button type="submit" class="btn btn-primary w-100" onclick="handleLogin()">Log In</button>
-					<p class="text-center mt-3">Don't have an account? <a href="register.html">Register</a></p>
-				</form>
-				<button id="continueWithoutAccount" class="btn secondary container col-2 col-8 col-2">Continue Without Account</button>
-			</section>
-		</div>
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <link rel="stylesheet" href="../css/login-style.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
 
-		<script src="../js/bootstrap.bundle.min.js"></script>
-		<script src="../js/handleLogin.js"></script>
-		<script>
-			document.getElementById("continueWithoutAccount").addEventListener("click", () => {
-				window.location.href = "homepage.html"; // Redirect to homepage or guest-access page
-			});
-		</script>
-	</body>
+</head>
+<body>
+<div class="login-container">
+  <!-- Form -->
+  <div id="register" class="login-form-section">
+    <form id="loginForm" class="form-box">
+      <h2>Welcome Back</h2>
+      <input id="username" type="text" placeholder="Username" class="login-input" />
+      <input id="password" type="password" placeholder="Password" class="login-input" />
+      <button class="login-button">Log In</button>
+      <div class="login-links">
+        <p class="text-center mt-3">Don't have an account? <a href="register.html">Register</a></p>
+        <a id="continueWithoutAccount" href="#">Continue without an account</a>
+      </div>
+    </form>
+  </div>
+
+  <!-- Image -->
+  <div class="login-image-section">
+    <img src="../assets/images/login.jpg"/>
+  </div>
+</div>
+</body>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/handleLogin.js"></script>
+<script>
+  document.getElementById("continueWithoutAccount").addEventListener("click", () => {
+    window.location.href = "homepage.html"; // Redirect to homepage or guest-access page
+  });
+</script>
 </html>
