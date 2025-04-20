@@ -17,15 +17,15 @@
     src: url(../assets/fonts/Oswald-VariableFont_wght.ttf) format('truetype');
 }
 
-*{
-
+*:not(header):not(header *){
+    font-family: 'Oswald', sans-serif;
 }
 /* header */
 header {
-    font-family: 'HeadingNow', sans-serif;
+    font-family: 'HeadingNow', sans-serif !important;
     font-size: 25px;
     .brand{
-        font-family: 'HeadingNow-Bold', sans-serif;
+        font-family: 'HeadingNow-Bold', sans-serif !important;
         font-size: 50px;
         color: #ba4730 !important;
         letter-spacing: -2px;
@@ -54,14 +54,13 @@ header {
         text-decoration: none;
     }
 
-
 }
 
 
 
 
 h1 {
-    font-family: 'HeadingNow-Bold', sans-serif;
+    font-family: 'HeadingNow-Bold', sans-serif !important;
     font-size: 60px;
     color: #ba4730 !important;
 }

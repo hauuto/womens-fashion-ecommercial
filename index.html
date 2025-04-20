@@ -1,13 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 	<head>
 		<meta charset="UTF-8">
-		<title>Title</title>
+		<title>Arligent - Sitemap</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
 	</head>
 	<body>
+		<div class="container-fluid">
+			<header class="row">
+				<nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+					<div class="container-fluid">
+						<div class="collapse navbar-collapse col-lg-6" id="navbarTogglerDemo02">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a class="nav-link" href="html/product-list.html">SHOP</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="html/about-us.html">ABOUT US</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" disabled="true">
+										COLLECTIONS
+									</a>
+									<ul class="dropdown-menu px-3 text-start">
+										<li class="nav-item">
+											<a class="nav-link" href="html/collection.html?filter=accessories">ACCESSORIES</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="html/collection.html?filter=arliqueen">ARLIQUEEN</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="html/collection.html?filter=leather">LEATHER</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="html/collection.html?filter=denim">DENIM</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="html/collection.html?filter=nylon">NYLON</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2">
+							<a class="navbar-brand me-lg-5 pe-lg-5 brand" href="html/homepage.html">ARLIGENT<span class="fs-5">&copy;</span></a>
+						</div>
+						<div class="col-lg-4 d-lg-flex justify-content-end">
+							<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasSearch">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+							<div class="offcanvas offcanvas-top" id="offcanvasSearch" data-bs-backdrop="false">
+								<div class="offcanvas-body">
+									<div class="search-container">
+										<div class="search-field">
+											<i class="fa fa-magnifying-glass fa-flip-horizontal"></i>
+											<label for="searchInput"></label>
+											<input id="searchInput" type="search" placeholder="Bạn muốn mua gì?">
+											<span id="clearBtn" class="clear-btn">
+												<i class='fa-solid fa-times-circle'></i>
+											</span>
+										</div>
+										<button id="searchCloseBtn" type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas"></button>
+									</div>
+								</div>
+							</div>
+							<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasCart">
+								<div class="button-group">
+									<i class="fa fa-cart-shopping">
+										<span class="counter">0</span>
+									</i>
+								</div>
+							</a>
+							<div class="offcanvas offcanvas-end" data-bs-scroll="false" id="offcanvasCart">
+								<div class="offcanvas-header">
+									<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+								</div>
+								<div class="offcanvas-body">
+									<h2>Your order</h2>
+									<p>Giỏ hàng trống</p>
+								</div>
+							</div>
+							<a class="btn" data-bs-toggle="offcanvas" href="#offcanvasWishlist">
+								<div class="button-group">
+									<i class="far fa-heart">
+										<span class="counter">0</span>
+									</i>
+								</div>
+							</a>
+							<div class="offcanvas offcanvas-end" data-bs-scroll="false" id="offcanvasWishlist">
+								<div class="offcanvas-header">
+									<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+								</div>
+								<div class="offcanvas-body">
+									<h2>Favorites</h2>
+									<p>Danh sách yêu thích trống</p>
+								</div>
+							</div>
+							<div class="btn-group">
+								<a class="btn btn-light" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fa-solid fa-user"></i>
+								</a>
+								<div id="dropdownMenu" class="dropdown-menu dropdown-menu-end" aria-labelledby="triggerId">
+									<a class="dropdown-item" href="html/login.html">Đăng nhập</a>
+									<a class="dropdown-item" href="html/register.html">Đăng ký</a>
+								</div>
+							</div>
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+						</div>
+					</div>
+				</nav>
+			</header>
+
+			<main>
+				<div class="container my-5">
+					<h2 class="text-center mb-4">Sơ đồ Website</h2>
+					<p class="text-center mb-5">Dưới đây là cấu trúc điều hướng của website Arligent, thể hiện các trang và liên kết giữa chúng.</p>
+
+					<a href="html/homepage.html"><img src="assets/images/sitemap.png" alt="Sitemap" class="img-fluid mx-auto d-block"></a>
+				</div>
+			</main>
 
 
-		<a href="html/homepage.html">Home</a>
-
+			<footer class="bg-light py-4">
+				<div class="container col-2 col-8 col-2">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 mb-4">
+							<a class="navbar-brand brand" href="html/homepage.html">ARLIGENT<span class="fs-5">&copy;</span></a>
+							<p class="mt-2">Your trusted brand for quality products.</p>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-4">
+							<h5>Theo dõi chúng tôi</h5>
+							<ul class="list-unstyled d-flex gap-3 social-media">
+								<li><a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+								<li><a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+								<li><a href="#"><i class="fa-brands fa-pinterest fa-lg"></i></a></li>
+								<li><a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a></li>
+							</ul>
+						</div>
+						<div class="col-lg-4 col-md-12">
+							<h5>Quick Links</h5>
+							<ul class="list-unstyled quick-links">
+								<li><a href="html/payment.html">Thanh toán</a></li>
+								<li><a href="#">Trả hàng</a></li>
+								<li><a href="#">Liên hệ</a></li>
+								<li><a href="#">Chính sách bảo mật</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="text-center">
+						<p>&copy; 2025 ARLIGENT. All rights reserved.</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+			<script src="js/bootstrap.bundle.min.js"></script>
+			<script src="js/jquery-3.7.1.min.js"></script>
 	</body>
 </html>
