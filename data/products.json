@@ -1,7 +1,7 @@
 [
   {
-    "id": "18",
-    "title": "Tên sản phẩm mẫu",
+    "id": "20",
+    "title": "Áo thun cotton",
     "price": "10000",
     "currency": "VND",
     "category": "Danh mục mẫu",
@@ -22,19 +22,22 @@
     ],
     "description": [
       [
-        "Mô tả ngắn"
+        "Đơn giản"
       ],
       [
-        "Mô tả chi tiết sản phẩm"
+        "Áo phông cơ bản làm từ chất liệu cotton dày, giữ dáng và mềm mại với hiệu ứng màu đào. Các chi tiết tạo nên sự khác biệt: kết cấu nhung mịn, logo in khối lượng lớn cùng tông màu ở mặt sau."
       ],
       [
-        "Đặc điểm"
+        "Kiểu dáng vừa vặn",
+        "Tay ngắn"
       ],
       [
-        "Hướng dẫn sử dụng"
+        "Nên giặt nhẹ ở nhiệt độ không quá 30°C."
       ],
       [
-        "Thông tin khác"
+        "Màu sắc: đen",
+        "Thành phần: 100% cotton",
+        "Xuất xứ: Thổ Nhĩ Kỳ"
       ]
     ],
     "available": true,
@@ -44,7 +47,7 @@
     }
   },
   {
-    "id": "19",
+    "id": "21",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -90,7 +93,7 @@
     }
   },
   {
-    "id": "20",
+    "id": "22",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -135,7 +138,7 @@
     }
   },
   {
-    "id": "21",
+    "id": "23",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -545,6 +548,50 @@
     "price": "10000",
     "currency": "VND",
     "category": "Danh mục mẫu",
+    "collection": "jacket",
+    "tags": [
+      "best seller"
+    ],
+    "images": [
+      "..\\assets\\images\\jacket11.jpg",
+      "..\\assets\\images\\jacket12.jpg",
+      "..\\assets\\images\\jacket13.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": [
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "10",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
     "collection": "leather",
     "tags": [
       "best seller"
@@ -585,7 +632,7 @@
     }
   },
   {
-    "id": "10",
+    "id": "11",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -628,7 +675,7 @@
     }
   },
   {
-    "id": "11",
+    "id": "12",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -672,7 +719,7 @@
     }
   },
   {
-    "id": "12",
+    "id": "13",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -715,7 +762,7 @@
     }
   },
   {
-    "id": "13",
+    "id": "14",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -761,7 +808,7 @@
     }
   },
   {
-    "id": "14",
+    "id": "15",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -805,7 +852,7 @@
     }
   },
   {
-    "id": "15",
+    "id": "16",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -848,7 +895,7 @@
     }
   },
   {
-    "id": "16",
+    "id": "17",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -891,7 +938,7 @@
     }
   },
   {
-    "id": "17",
+    "id": "18",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -934,7 +981,52 @@
     }
   },
   {
-    "id": "22",
+    "id": "19",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "pants",
+    "tags": [
+      "best seller"
+    ],
+    "images": [
+      "..\\assets\\images\\pants11.jpg",
+      "..\\assets\\images\\pants12.jpg",
+      "..\\assets\\images\\pants13.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": [
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+
+  {
+    "id": "24",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -981,7 +1073,7 @@
     }
   },
   {
-    "id": "23",
+    "id": "25",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -1029,7 +1121,7 @@
     }
   },
   {
-    "id": "24",
+    "id": "26",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -1076,7 +1168,7 @@
     }
   },
   {
-    "id": "25",
+    "id": "27",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -1124,7 +1216,7 @@
     }
   },
   {
-    "id": "26",
+    "id": "28",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -1172,7 +1264,7 @@
     }
   },
   {
-    "id": "27",
+    "id": "29",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -1218,7 +1310,7 @@
     }
   },
   {
-    "id": "28",
+    "id": "30",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -1264,7 +1356,7 @@
     }
   },
   {
-    "id": "29",
+    "id": "31",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -1312,7 +1404,7 @@
     }
   },
   {
-    "id": "30",
+    "id": "32",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -1361,7 +1453,7 @@
     }
   },
   {
-    "id": "31",
+    "id": "33",
     "title": "Tên sản phẩm mẫu",
     "price": "10000",
     "currency": "VND",
@@ -1378,6 +1470,97 @@
       "..\\assets\\images\\queen65.jpg",
       "..\\assets\\images\\queen66.jpg",
       "..\\assets\\images\\queen67.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": [
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "34",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "shirt",
+    "tags": [
+      "best seller"
+    ],
+    "images": [
+      "..\\assets\\images\\shirt11.jpg",
+      "..\\assets\\images\\shirt12.jpg",
+      "..\\assets\\images\\shirt13.jpg",
+      "..\\assets\\images\\shirt14.jpg",
+      "..\\assets\\images\\shirt15.jpg",
+      "..\\assets\\images\\shirt16.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": [
+      [
+        "Mô tả ngắn"
+      ],
+      [
+        "Mô tả chi tiết sản phẩm"
+      ],
+      [
+        "Đặc điểm"
+      ],
+      [
+        "Hướng dẫn sử dụng"
+      ],
+      [
+        "Thông tin khác"
+      ]
+    ],
+    "available": true,
+    "actions": {
+      "addToCart": true,
+      "addToWishlist": true
+    }
+  },
+  {
+    "id": "35",
+    "title": "Tên sản phẩm mẫu",
+    "price": "10000",
+    "currency": "VND",
+    "category": "Danh mục mẫu",
+    "collection": "shirt",
+    "tags": [
+      "best seller"
+    ],
+    "images": [
+      "..\\assets\\images\\shirt21.jpg",
+      "..\\assets\\images\\shirt22.jpg",
+      "..\\assets\\images\\shirt23.jpg"
     ],
     "sizes": [
       "S",

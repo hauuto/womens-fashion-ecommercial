@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Clothing Filter</title>
   <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/product-list-style.css">
-  <link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
+	  <link rel="stylesheet" href="../css/style.css">
+  	<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
 </head>
 <body>
-<div class="container-fluid my-5">
+<div class="container-fluid">
   <header class="mb-4"></header>
 <div class="main-layout">
-  <aside class="sidebar">
+  <aside class="sidebar mt-5">
     <label>Category:</label>
     <ul id="categoryFilter" class="category-list">
       <li data-category="">All</li>
@@ -35,7 +35,22 @@
   </aside>
 
   <section class="product-section">
-    <div id="productList" class="product-list"></div>
+	  <div class="py-5">
+		  <h1 class="mb-4 text-center" id="productList">Product List</h1>
+		  <div class="d-flex justify-content-center">
+			  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 col- col-12" id="productGrid">
+				  <!-- Products will be dynamically loaded here -->
+			  </div>
+		  </div>
+
+
+		  <div class="text-center mt-4">
+			  <button id="loadMoreBtn" class="btn btn-dark">Load More</button>
+		  </div>
+
+
+
+	  </div>
   </section>
 </div>
   <footer class="bg-light py-4"></footer>
