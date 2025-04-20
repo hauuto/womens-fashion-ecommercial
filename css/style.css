@@ -17,15 +17,15 @@
     src: url(../assets/fonts/Oswald-VariableFont_wght.ttf) format('truetype');
 }
 
-*{
-
+*:not(header):not(header *){
+    font-family: 'Oswald', sans-serif;
 }
 /* header */
 header {
-    font-family: 'HeadingNow', sans-serif;
+    font-family: 'HeadingNow', sans-serif !important;
     font-size: 25px;
     .brand{
-        font-family: 'HeadingNow-Bold', sans-serif;
+        font-family: 'HeadingNow-Bold', sans-serif !important;
         font-size: 50px;
         color: #ba4730 !important;
         letter-spacing: -2px;
@@ -54,14 +54,13 @@ header {
         text-decoration: none;
     }
 
-
 }
 
 
 
 
 h1 {
-    font-family: 'HeadingNow-Bold', sans-serif;
+    font-family: 'HeadingNow-Bold', sans-serif !important;
     font-size: 60px;
     color: #ba4730 !important;
 }
@@ -777,4 +776,57 @@ h3 {
 .color-swatch.selected {
     border-color: #000;
     outline: 2px solid black;
+}
+
+
+
+/* Trong style.css */
+.order-summary .product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.order-summary .product img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.order-summary .product-desc {
+    flex-grow: 1;
+}
+
+.order-summary .product-desc p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.order-summary .product-price {
+    font-weight: bold;
+}
+
+.order-summary .total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.order-summary .empty-cart {
+    color: #888;
+    font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .order-summary .product img {
+        width: 40px;
+    }
+    .order-summary .product-desc p {
+        font-size: 12px;
+    }
+    .order-summary .total {
+        font-size: 16px;
+    }
 }

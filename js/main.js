@@ -1,27 +1,72 @@
-// Load header and footer
 async function loadHeaderFooter() {
     try {
-        const header = await fetch('../html/components/header.html').then(res => res.text());
-        const footer = await fetch('../html/components/footer.html').then(res => res.text());
+        console.log('Fetching header.html...');
+        const headerResponse = await fetch('../html/components/header.html');
+        if (!headerResponse.ok) {
+            throw new Error(`Failed to fetch header.html: ${headerResponse.status} ${headerResponse.statusText}`);
+        }
+        const header = await headerResponse.text();
+        console.log('Header fetched successfully:', header.slice(0, 100));
+
+        console.log('Fetching footer.html...');
+        const footerResponse = await fetch('../html/components/footer.html');
+        if (!footerResponse.ok) {
+            throw new Error(`Failed to fetch footer.html: ${footerResponse.status} ${footerResponse.statusText}`);
+        }
+        const footer = await footerResponse.text();
+        console.log('Footer fetched successfully:', footer.slice(0, 100));
+
         document.getElementsByTagName('header')[0].innerHTML = header;
         document.getElementsByTagName('footer')[0].innerHTML = footer;
 
-        // Add scroll animation to dynamically loaded header
-        setTimeout(() => {
-            const navbar = document.getElementById('navBar');
-            if (navbar) {
-                let lastScrollTop = 0;
-                window.addEventListener("scroll", function () {
-                    const st = window.scrollY || document.documentElement.scrollTop;
-                    if (st > lastScrollTop) {
-                        navbar.style.top = "-100px"; // Hide navbar on scroll down
-                    } else {
-                        navbar.style.top = "0"; // Show navbar on scroll up
-                    }
-                    lastScrollTop = st <= 0 ? 0 : st; // Prevent negative values
-                });
+        const navbar = document.getElementById('navBar');
+        if (navbar) {
+            let lastScrollTop = 0;
+            window.addEventListener("scroll", function () {
+                const st = window.scrollY || document.documentElement.scrollTop;
+                if (st > lastScrollTop) {
+                    navbar.style.top = "-100px";
+                } else {
+                    navbar.style.top = "0";
+                }
+                lastScrollTop = st <= 0 ? 0 : st;
+            });
+        }
+
+        const cartOffcanvas = document.getElementById('offcanvasCart');
+        const wishlistOffcanvas = document.getElementById('offcanvasWishlist');
+        if (cartOffcanvas) {
+            cartOffcanvas.addEventListener('show.bs.offcanvas', () => {
+                updateCartUI();
+                console.log('Cart offcanvas opened, UI updated');
+            });
+        }
+        if (wishlistOffcanvas) {
+            wishlistOffcanvas.addEventListener('show.bs.offcanvas', () => {
+                updateWishlistUI();
+                console.log('Wishlist offcanvas opened, UI updated');
+            });
+        }
+
+        let attempts = 0;
+        const maxAttempts = 5;
+        const retryInterval = setInterval(() => {
+            const cartContainer = document.querySelector('#offcanvasCart .offcanvas-body');
+            const wishlistContainer = document.querySelector('#offcanvasWishlist .offcanvas-body');
+            if (cartContainer && wishlistContainer) {
+                updateCartUI();
+                updateWishlistUI();
+                console.log('Initial Cart and Wishlist UI updated successfully');
+                clearInterval(retryInterval);
+            } else {
+                console.warn(`Offcanvas containers not found. Attempt ${attempts + 1}/${maxAttempts}`);
+                attempts++;
+                if (attempts >= maxAttempts) {
+                    console.error('Failed to find offcanvas containers after max attempts');
+                    clearInterval(retryInterval);
+                }
             }
-        }, 0); // Ensure the DOM is updated before accessing `navBar`
+        }, 100);
 
         console.log('Header and footer loaded successfully.');
     } catch (error) {
@@ -29,25 +74,14 @@ async function loadHeaderFooter() {
     }
 }
 
-// Initialize functions
 document.addEventListener('DOMContentLoaded', function () {
-    loadHeaderFooter();
-});
-
-
-
-
-
-
-document.addEventListener("DOMContentLoaded", function () {
     const defaultAdmin = {
         username: "admin",
         email: "admin@admin.com",
-        password: "admin", // Ensure this meets your password validation rules
+        password: "admin",
         userRole: "admin"
     };
 
-    // Check if the default admin already exists
     const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
     const adminExists = existingUsers.some(user => user.username === defaultAdmin.username);
 
@@ -60,8 +94,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-
-
 document.addEventListener("DOMContentLoaded", () => {
     console.log("DOM fully loaded and parsed");
 
@@ -69,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const userRole = sessionStorage.getItem("userRole");
         console.log("User role:", userRole);
 
-        const dropdownMenu =  document.getElementById("dropdownMenu");
+        const dropdownMenu = document.getElementById("dropdownMenu");
         const triggerButton = document.getElementById("triggerId");
 
         if (!dropdownMenu || !triggerButton) {
@@ -94,68 +126,240 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             console.log("No user role found, default dropdown remains");
         }
-    }, 200); // Delay of 2 seconds
+    }, 200);
 });
 
-
-// Add event listeners to dropdown items
 document.addEventListener('DOMContentLoaded', () => {
     const dropdownItems = document.querySelectorAll('.dropdown-menu .nav-link');
 
     dropdownItems.forEach(item => {
         item.addEventListener('click', (event) => {
-            event.preventDefault(); // Prevent default link behavior
-            const filter = item.textContent.trim().toLowerCase(); // Get the filter name
-            window.location.href = `../html/collection.html`; // Redirect with filter
+            event.preventDefault();
+            const filter = item.textContent.trim().toLowerCase();
+            window.location.href = `../html/collection.html?filter=${filter}`;
         });
     });
 });
 
+// Hàm hỗ trợ giá tiền
+function parsePrice(priceStr) {
+    if (typeof priceStr === 'number') return priceStr;
+    return parseInt(priceStr.replace(/\./g, ''), 10);
+}
 
-document.addEventListener("DOMContentLoaded", () => {
-    const cartKey = "cartItems";
-    const favoriteKey = "favoriteItems";
+function formatPrice(number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+}
 
-    // Function to get items from localStorage
-    const getItems = (key) => JSON.parse(localStorage.getItem(key)) || [];
+function getCart() {
+    return JSON.parse(localStorage.getItem('cart')) || [];
+}
 
-    // Function to save items to localStorage
-    const saveItems = (key, items) => localStorage.setItem(key, JSON.stringify(items));
+function getWishlist() {
+    return JSON.parse(localStorage.getItem('wishlist')) || [];
+}
 
-    // Add event listeners to "Add to Cart" buttons
-    document.addEventListener("click", (event) => {
-        if (event.target.classList.contains("add-to-cart")) {
-            const productId = event.target.getAttribute("data-id");
-            const cartItems = getItems(cartKey);
+function saveCart(cart) {
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
 
-            if (!cartItems.includes(productId)) {
-                cartItems.push(productId);
-                saveItems(cartKey, cartItems);
-                alert("Product added to cart!");
-            } else {
-                alert("Product is already in the cart.");
-            }
+function saveWishlist(wishlist) {
+    localStorage.setItem('wishlist', JSON.stringify(wishlist));
+}
+
+function addToCart(product, size) {
+    console.log('Adding to cart:', product, size);
+    const cart = getCart();
+    const existingItem = cart.find(item => item.id === product.id && item.size === size);
+
+    if (existingItem) {
+        existingItem.quantity += 1;
+    } else {
+        cart.push({
+            id: product.id,
+            title: product.title,
+            price: product.price,
+            priceNumber: parsePrice(product.price),
+            currency: product.currency,
+            image: product.images[0],
+            size: size,
+            quantity: 1,
+            code: `${product.id}/02`
+        });
+    }
+    console.log('Cart after adding:', cart);
+    saveCart(cart);
+    updateCartUI();
+    alert(`${product.title} đã được thêm vào giỏ hàng!`);
+}
+
+function addToWishlist(product, size) {
+    console.log('Adding to wishlist:', product, size);
+    const wishlist = getWishlist();
+    const existingItem = wishlist.find(item => item.id === product.id && item.size === size);
+
+    if (!existingItem) {
+        wishlist.push({
+            id: product.id,
+            title: product.title,
+            price: product.price,
+            priceNumber: parsePrice(product.price),
+            currency: product.currency,
+            image: product.images[0],
+            size: size,
+            code: `${product.id}/02`
+        });
+        console.log('Wishlist after adding:', wishlist);
+        saveWishlist(wishlist);
+        updateWishlistUI();
+        alert(`${product.title} đã được thêm vào danh sách yêu thích!`);
+    } else {
+        alert(`${product.title} đã có trong danh sách yêu thích!`);
+    }
+}
+
+function removeFromCart(productId, size) {
+    const cart = getCart();
+    const updatedCart = cart.filter(item => !(item.id === productId && item.size === size));
+    saveCart(updatedCart);
+    updateCartUI();
+}
+
+function removeFromWishlist(productId, size) {
+    const wishlist = getWishlist();
+    const updatedWishlist = wishlist.filter(item => !(item.id === productId && item.size === size));
+    saveWishlist(updatedWishlist);
+    updateWishlistUI();
+}
+
+function updateCartQuantity(productId, size, change) {
+    const cart = getCart();
+    const item = cart.find(item => item.id === productId && item.size === size);
+
+    if (item) {
+        item.quantity += change;
+        if (item.quantity <= 0) {
+            removeFromCart(productId, size);
+        } else {
+            saveCart(cart);
+            updateCartUI();
         }
-    });
+    }
+}
 
-    // Add event listeners to "Add to Favorite" buttons
-    document.addEventListener("click", (event) => {
-        if (event.target.classList.contains("add-to-favorite")) {
-            const productId = event.target.getAttribute("data-id");
-            const favoriteItems = getItems(favoriteKey);
+function updateCartUI() {
+    const cart = getCart();
+    const cartContainer = document.querySelector('#offcanvasCart .offcanvas-body');
+    const cartCounter = document.querySelector('[href="#offcanvasCart"] .counter') || document.querySelector('#offcanvasCart .counter');
+    console.log('Updating Cart UI. Cart:', cart);
+    console.log('Cart Container:', cartContainer);
+    console.log('Cart Counter:', cartCounter);
 
-            if (!favoriteItems.includes(productId)) {
-                favoriteItems.push(productId);
-                saveItems(favoriteKey, favoriteItems);
-                alert("Product added to favorites!");
-            } else {
-                alert("Product is already in favorites.");
-            }
+    if (!cartContainer || !cartCounter) {
+        console.error('Cart container or counter not found');
+        return;
+    }
+
+    if (cart.length === 0) {
+        cartContainer.innerHTML = '<h2>Your order</h2><p>Giỏ hàng trống</p>';
+        cartCounter.textContent = '0';
+        console.log('Cart is empty, set default empty message');
+        return;
+    }
+
+    let total = 0;
+    const cartHTML = `
+        <h2>Your order</h2>
+        ${cart.map(item => {
+        const itemTotal = parsePrice(item.priceNumber || item.price) * item.quantity;
+        total += itemTotal;
+        return `
+                <div class="product">
+                    <div class="product-start">
+                        <img src="${item.image}" alt="${item.title}">
+                        <div class="product-desc">
+                            <a href="#">${item.title}</a>
+                            <p>Kích cỡ: ${item.size}</p>
+                            <p class="product-code">${item.code}</p>
+                        </div>
+                    </div>
+                    <div class="product-end">
+                        <div class="quantity-controls">
+                            <i class="fa fa-minus-circle" onclick="updateCartQuantity('${item.id}', '${item.size}', -1)"></i>
+                            <span>${item.quantity}</span>
+                            <i class="fa fa-plus-circle" onclick="updateCartQuantity('${item.id}', '${item.size}', 1)"></i>
+                        </div>
+                        <div class="product-price">${formatPrice(itemTotal)} ${item.currency}</div>
+                        <i class="far fa-times-circle" onclick="removeFromCart('${item.id}', '${item.size}')"></i>
+                    </div>
+                </div>
+            `;
+    }).join('')}
+        <div class="cart-total">
+            <span>Total:</span>
+            <span>${formatPrice(total)} ${cart[0].currency}</span>
+        </div>
+        <button id="checkoutButton" class="checkout-btn">Thanh toán</button>
+    `;
+
+    console.log('Generated Cart HTML:', cartHTML);
+    cartContainer.innerHTML = cartHTML;
+    cartCounter.textContent = cart.reduce((sum, item) => sum + item.quantity, 0);
+    console.log('Cart UI updated. Counter set to:', cartCounter.textContent);
+}
+
+function updateWishlistUI() {
+    const wishlist = getWishlist();
+    const wishlistContainer = document.querySelector('#offcanvasWishlist .offcanvas-body');
+    const wishlistCounter = document.querySelector('[href="#offcanvasWishlist"] .counter') || document.querySelector('#offcanvasWishlist .counter');
+    console.log('Updating Wishlist UI. Wishlist:', wishlist);
+    console.log('Wishlist Container:', wishlistContainer);
+    console.log('Wishlist Counter:', wishlistCounter);
+
+    if (!wishlistContainer || !wishlistCounter) {
+        console.error('Wishlist container or counter not found');
+        return;
+    }
+
+    if (wishlist.length === 0) {
+        wishlistContainer.innerHTML = '<h2>Favorites</h2><p>Danh sách yêu thích trống</p>';
+        wishlistCounter.textContent = '0';
+        console.log('Wishlist is empty, set default empty message');
+        return;
+    }
+
+    const wishlistHTML = `
+        <h2>Favorites</h2>
+        ${wishlist.map(item => `
+            <div class="product">
+                <div class="product-start">
+                    <img src="${item.image}" alt="${item.title}">
+                    <div class="product-desc">
+                        <a href="#">${item.title}</a>
+                        <p>Kích cỡ: ${item.size}</p>
+                        <p class="product-code">${item.code}</p>
+                    </div>
+                </div>
+                <div class="product-end">
+                    <div class="product-price">${formatPrice(parsePrice(item.priceNumber || item.price))} ${item.currency}</div>
+                    <i class="far fa-times-circle" onclick="removeFromWishlist('${item.id}', '${item.size}')"></i>
+                </div>
+            </div>
+        `).join('')}
+    `;
+
+    console.log('Generated Wishlist HTML:', wishlistHTML);
+    wishlistContainer.innerHTML = wishlistHTML;
+    wishlistCounter.textContent = wishlist.length;
+    console.log('Wishlist UI updated. Counter set to:', wishlistCounter.textContent);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    loadHeaderFooter();
+    document.addEventListener('click', function (event) {
+        if (event.target && event.target.id === 'checkoutButton') {
+            window.location.href = '../html/payment.html';
         }
     });
 });
-
-
-
-
 
