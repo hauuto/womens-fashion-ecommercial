@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Clothing Filter</title>
+  <title>Ariligent - Tất cả sản phẩm</title>
   <link rel="stylesheet" href="../css/bootstrap.min.css">
 	  <link rel="stylesheet" href="../css/style.css">
   	<link rel="stylesheet" href="../assets/fonts/fontawesome/css/all.min.css">
@@ -13,25 +13,31 @@
   <header class="mb-4"></header>
 <div class="main-layout">
   <aside class="sidebar mt-5">
-    <label>Category:</label>
+    <label>Lọc theo loại:</label>
     <ul id="categoryFilter" class="category-list">
-      <li data-category="">All</li>
-      <li data-category="Shirt">Shirt</li>
-      <li data-category="Pants">Pants</li>
-      <li data-category="Jacket">Jacket</li>
+      <li data-category="">Tất cả</li>
+      <li data-category="accessories">Phụ kiện</li>
+      <li data-category="queen">Arliqueen</li>
+      <li data-category="leather">Da</li>
+	  <li data-category="denim">Denim</li>
+	  <li data-category="nylon">Nylon</li>
+		<li data-category="Quần">Quần</li>
+		<li data-category="Áo">Áo</li>
+		<li data-category="Áo khoác">Áo khoác</li>
+		<li data-category="Váy">Váy</li>
+		<li data-category="Chân váy">Chân váy</li>
     </ul>
 
     <label>Color:</label>
     <div id="colorFilter" class="color-options">
-      <div class="color-swatch" data-color=""></div>
-      <div class="color-swatch red" data-color="Red"></div>
-      <div class="color-swatch blue" data-color="Blue"></div>
-      <div class="color-swatch green" data-color="Green"></div>
+      <div class="color-swatch red" data-color="đỏ"></div>
+      <div class="color-swatch blue" data-color="xanh"></div>
+      <div class="color-swatch black" data-color="đen"></div>
     </div>
 
     <label>Price Range:</label>
-    <input type="number" id="minPrice" placeholder="Min $" oninput="applyFilter()" />
-    <input type="number" id="maxPrice" placeholder="Max $" oninput="applyFilter()" />
+    <input type="number" id="minPrice" placeholder="Giá thấp nhất đ" />
+    <input type="number" id="maxPrice" placeholder="Giá cao nhất đ"/>
   </aside>
 
   <section class="product-section">
@@ -59,5 +65,6 @@
 <script src="../js/jquery-3.7.1.min.js"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
 <script src="../js/main.js"></script>
-<script src="../js/renderProductList.js"></script>
+	<script src="../js/filter.js"></script>
+
 </html>

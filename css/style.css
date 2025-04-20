@@ -770,7 +770,9 @@ h3 {
 
 .color-swatch.red { background-color: red; }
 .color-swatch.blue { background-color: blue; }
-.color-swatch.green { background-color: green; }
+.color-swatch.black { background-color: black; }
+.color-swatch.white { background-color: white; }
+
 
 .color-swatch.selected {
     border-color: #000;

@@ -44,6 +44,7 @@ function renderProducts() {
     if (currentIndex === 0) {
         productGrid.innerHTML = '';
     }
+    document.title = `Arligent - ${products[0].collection.charAt(0).toUpperCase() + products[0].collection.slice(1)}`;
 
     for (let i = currentIndex; i < endIndex; i++) {
         const product = products[i];
