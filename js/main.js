@@ -112,6 +112,50 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+document.addEventListener("DOMContentLoaded", () => {
+    const cartKey = "cartItems";
+    const favoriteKey = "favoriteItems";
+
+    // Function to get items from localStorage
+    const getItems = (key) => JSON.parse(localStorage.getItem(key)) || [];
+
+    // Function to save items to localStorage
+    const saveItems = (key, items) => localStorage.setItem(key, JSON.stringify(items));
+
+    // Add event listeners to "Add to Cart" buttons
+    document.addEventListener("click", (event) => {
+        if (event.target.classList.contains("add-to-cart")) {
+            const productId = event.target.getAttribute("data-id");
+            const cartItems = getItems(cartKey);
+
+            if (!cartItems.includes(productId)) {
+                cartItems.push(productId);
+                saveItems(cartKey, cartItems);
+                alert("Product added to cart!");
+            } else {
+                alert("Product is already in the cart.");
+            }
+        }
+    });
+
+    // Add event listeners to "Add to Favorite" buttons
+    document.addEventListener("click", (event) => {
+        if (event.target.classList.contains("add-to-favorite")) {
+            const productId = event.target.getAttribute("data-id");
+            const favoriteItems = getItems(favoriteKey);
+
+            if (!favoriteItems.includes(productId)) {
+                favoriteItems.push(productId);
+                saveItems(favoriteKey, favoriteItems);
+                alert("Product added to favorites!");
+            } else {
+                alert("Product is already in favorites.");
+            }
+        }
+    });
+});
+
+
 
 
 

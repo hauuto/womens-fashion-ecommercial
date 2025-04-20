@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Arligent - Payment</title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container my-5">
+			<h1 class="text-center mb-4">Payment</h1>
+			<div class="row">
+				<!-- Payment Form -->
+				<div class="col-lg-8">
+					<form id="paymentForm">
+						<h3 class="mb-3">Billing Details</h3>
+						<div class="mb-3">
+							<label for="fullName" class="form-label">Full Name</label>
+							<input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+						</div>
+						<div class="mb-3">
+							<label for="email" class="form-label">Email Address</label>
+							<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+						</div>
+						<div class="mb-3">
+							<label for="address" class="form-label">Address</label>
+							<input type="text" class="form-control" id="address" placeholder="Enter your address" required>
+						</div>
+						<div class="row">
+							<div class="col-md-6 mb-3">
+								<label for="city" class="form-label">City</label>
+								<input type="text" class="form-control" id="city" placeholder="City" required>
+							</div>
+							<div class="col-md-6 mb-3">
+								<label for="zip" class="form-label">ZIP Code</label>
+								<input type="text" class="form-control" id="zip" placeholder="ZIP Code" required>
+							</div>
+						</div>
+
+						<h3 class="mt-4 mb-3">Payment Method</h3>
+						<div class="form-check mb-2">
+							<input class="form-check-input" type="radio" name="paymentMethod" id="creditCard" value="creditCard" checked>
+							<label class="form-check-label" for="creditCard">Credit Card</label>
+						</div>
+						<div class="form-check mb-2">
+							<input class="form-check-input" type="radio" name="paymentMethod" id="paypal" value="paypal">
+							<label class="form-check-label" for="paypal">PayPal</label>
+						</div>
+						<div class="form-check mb-4">
+							<input class="form-check-input" type="radio" name="paymentMethod" id="bankTransfer" value="bankTransfer">
+							<label class="form-check-label" for="bankTransfer">Bank Transfer</label>
+						</div>
+
+						<button type="submit" class="btn btn-primary w-100">Proceed to Payment</button>
+					</form>
+				</div>
+
+				<!-- Order Summary -->
+				<div class="col-lg-4">
+					<div class="card">
+						<div class="card-header">
+							<h4>Order Summary</h4>
+						</div>
+						<div class="card-body">
+							<p>Product 1: $50</p>
+							<p>Product 2: $30</p>
+							<hr>
+							<h5>Total: $80</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/bootstrap.bundle.min.js"></script>
+		<script>
+			document.getElementById('paymentForm').addEventListener('submit', function (e) {
+				e.preventDefault();
+				alert('Payment processed successfully!');
+			});
+		</script>
+	</body>
+</html>
