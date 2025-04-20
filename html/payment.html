@@ -52,21 +52,18 @@
 							<label class="form-check-label" for="bankTransfer">Bank Transfer</label>
 						</div>
 
-						<button type="submit" class="btn btn-primary w-100">Proceed to Payment</button>
+						<button type="submit" class="btn btn-primary w-100" id="paymentButton" disabled>Proceed to Payment</button>
 					</form>
 				</div>
 
 				<!-- Order Summary -->
 				<div class="col-lg-4">
-					<div class="card">
+					<div class="card order-summary">
 						<div class="card-header">
 							<h4>Order Summary</h4>
 						</div>
-						<div class="card-body">
-							<p>Product 1: $50</p>
-							<p>Product 2: $30</p>
-							<hr>
-							<h5>Total: $80</h5>
+						<div class="card-body" id="orderSummary">
+							<!-- Nội dung sẽ được tạo động bằng JavaScript -->
 						</div>
 					</div>
 				</div>
@@ -75,10 +72,77 @@
 
 		<script src="../js/bootstrap.bundle.min.js"></script>
 		<script>
+			// Hàm hỗ trợ từ main.js
+			function parsePrice(priceStr) {
+				if (typeof priceStr === 'number') return priceStr;
+				return parseInt(priceStr.replace(/\./g, ''), 10);
+			}
+
+			function formatPrice(number) {
+				return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+			}
+
+			function getCart() {
+				return JSON.parse(localStorage.getItem('cart')) || [];
+			}
+
+			// Hàm hiển thị Order Summary
+			function updateOrderSummary() {
+				const cart = getCart();
+				const orderSummary = document.getElementById('orderSummary');
+				const paymentButton = document.getElementById('paymentButton');
+
+				if (cart.length === 0) {
+					orderSummary.innerHTML = '<p class="empty-cart">Giỏ hàng trống</p>';
+					paymentButton.disabled = true;
+					return;
+				}
+
+				let total = 0;
+				const summaryHTML = cart.map(item => {
+					const itemTotal = parsePrice(item.priceNumber || item.price) * item.quantity;
+					total += itemTotal;
+					return `
+                        <div class="product">
+                            <div class="product-start">
+                                <img src="${item.image}" alt="${item.title}">
+                                <div class="product-desc">
+                                    <p><strong>${item.title}</strong></p>
+                                    <p>Kích cỡ: ${item.size}</p>
+                                    <p>Số lượng: ${item.quantity}</p>
+                                </div>
+                            </div>
+                            <div class="product-price">${formatPrice(itemTotal)} ${item.currency}</div>
+                        </div>
+                    `;
+				}).join('') + `
+                    <hr>
+                    <div class="total">
+                        <span>Total:</span>
+                        <span>${formatPrice(total)} ${cart[0].currency}</span>
+                    </div>
+                `;
+
+				orderSummary.innerHTML = summaryHTML;
+				paymentButton.disabled = false;
+			}
+
+			// Xử lý form thanh toán
 			document.getElementById('paymentForm').addEventListener('submit', function (e) {
 				e.preventDefault();
+				const cart = getCart();
+				if (cart.length === 0) {
+					alert('Giỏ hàng trống! Vui lòng thêm sản phẩm trước khi thanh toán.');
+					return;
+				}
+				// Xóa giỏ hàng sau khi thanh toán (tùy chọn)
+				localStorage.removeItem('cart');
+				updateOrderSummary();
 				alert('Payment processed successfully!');
 			});
+
+			// Khởi tạo Order Summary khi trang tải
+			document.addEventListener('DOMContentLoaded', updateOrderSummary);
 		</script>
 	</body>
 </html>

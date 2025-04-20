@@ -50,7 +50,7 @@ async function renderProductDetail(jsonPath = '../data/products.json') {
 
         // Cập nhật kích thước
         const sizeSelector = document.querySelector('.size-selector .sizes');
-        sizeSelector.innerHTML = product.sizes.map(size => `<button class="btn">${size}</button>`).join('');
+        sizeSelector.innerHTML = product.sizes.map(size => `<button class="btn text-start">${size}</button>`).join("");
 
         // Cập nhật ảnh chính
         const mainImage = document.querySelector('#mainImage');
